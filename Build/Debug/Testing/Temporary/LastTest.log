@@ -1,0 +1,271 @@
+Start testing: Nov 29 02:26 MSK
+----------------------------------------------------------
+1/12 Testing: Test1
+1/12 Test: Test1
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/0_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test1" start time: Nov 29 02:26 MSK
+Output:
+----------------------------------------------------------
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.69 sec
+----------------------------------------------------------
+Test Failed.
+"Test1" end time: Nov 29 02:26 MSK
+"Test1" time elapsed: 00:00:07
+----------------------------------------------------------
+
+2/12 Testing: Test2
+2/12 Test: Test2
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/1_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test2" start time: Nov 29 02:26 MSK
+Output:
+----------------------------------------------------------
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.36 sec
+----------------------------------------------------------
+Test Failed.
+"Test2" end time: Nov 29 02:26 MSK
+"Test2" time elapsed: 00:00:07
+----------------------------------------------------------
+
+3/12 Testing: Test3
+3/12 Test: Test3
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/2_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test3" start time: Nov 29 02:26 MSK
+Output:
+----------------------------------------------------------
+Warning! Value of'metrictype' is not correctly specified.
+Value of 'metrictype' was defined to 'euclidean'
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.67 sec
+----------------------------------------------------------
+Test Failed.
+"Test3" end time: Nov 29 02:26 MSK
+"Test3" time elapsed: 00:00:07
+----------------------------------------------------------
+
+4/12 Testing: Test4
+4/12 Test: Test4
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/3_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test4" start time: Nov 29 02:26 MSK
+Output:
+----------------------------------------------------------
+Warning! Value of'metrictype' is not correctly specified.
+Value of 'metrictype' was defined to 'euclidean'
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.42 sec
+----------------------------------------------------------
+Test Failed.
+"Test4" end time: Nov 29 02:26 MSK
+"Test4" time elapsed: 00:00:07
+----------------------------------------------------------
+
+5/12 Testing: Test5
+5/12 Test: Test5
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/4_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test5" start time: Nov 29 02:26 MSK
+Output:
+----------------------------------------------------------
+Warning! Value of'metrictype' is not correctly specified.
+Value of 'metrictype' was defined to 'euclidean'
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.28 sec
+----------------------------------------------------------
+Test Failed.
+"Test5" end time: Nov 29 02:26 MSK
+"Test5" time elapsed: 00:00:07
+----------------------------------------------------------
+
+6/12 Testing: Test6
+6/12 Test: Test6
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/5_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test6" start time: Nov 29 02:26 MSK
+Output:
+----------------------------------------------------------
+Warning! Value of'metrictype' is not correctly specified.
+Value of 'metrictype' was defined to 'euclidean'
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.73 sec
+----------------------------------------------------------
+Test Failed.
+"Test6" end time: Nov 29 02:26 MSK
+"Test6" time elapsed: 00:00:07
+----------------------------------------------------------
+
+7/12 Testing: Test7
+7/12 Test: Test7
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/6_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test7" start time: Nov 29 02:26 MSK
+Output:
+----------------------------------------------------------
+Warning! Value of'metrictype' is not correctly specified.
+Value of 'metrictype' was defined to 'euclidean'
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.27 sec
+----------------------------------------------------------
+Test Failed.
+"Test7" end time: Nov 29 02:26 MSK
+"Test7" time elapsed: 00:00:07
+----------------------------------------------------------
+
+8/12 Testing: Test8
+8/12 Test: Test8
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/7_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test8" start time: Nov 29 02:26 MSK
+Output:
+----------------------------------------------------------
+Warning! Value of'metrictype' is not correctly specified.
+Value of 'metrictype' was defined to 'euclidean'
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.31 sec
+----------------------------------------------------------
+Test Failed.
+"Test8" end time: Nov 29 02:27 MSK
+"Test8" time elapsed: 00:00:07
+----------------------------------------------------------
+
+9/12 Testing: Test9
+9/12 Test: Test9
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/8_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test9" start time: Nov 29 02:27 MSK
+Output:
+----------------------------------------------------------
+Warning! Value of'metrictype' is not correctly specified.
+Value of 'metrictype' was defined to 'euclidean'
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.91 sec
+----------------------------------------------------------
+Test Failed.
+"Test9" end time: Nov 29 02:27 MSK
+"Test9" time elapsed: 00:00:07
+----------------------------------------------------------
+
+10/12 Testing: Test10
+10/12 Test: Test10
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/9_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test10" start time: Nov 29 02:27 MSK
+Output:
+----------------------------------------------------------
+Warning! Value of'metrictype' is not correctly specified.
+Value of 'metrictype' was defined to 'euclidean'
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.60 sec
+----------------------------------------------------------
+Test Failed.
+"Test10" end time: Nov 29 02:27 MSK
+"Test10" time elapsed: 00:00:07
+----------------------------------------------------------
+
+11/12 Testing: Test11
+11/12 Test: Test11
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/A_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test11" start time: Nov 29 02:27 MSK
+Output:
+----------------------------------------------------------
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.63 sec
+----------------------------------------------------------
+Test Failed.
+"Test11" end time: Nov 29 02:27 MSK
+"Test11" time elapsed: 00:00:07
+----------------------------------------------------------
+
+12/12 Testing: Test12
+12/12 Test: Test12
+Command: "/home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests/testbench" "../../../TestData/B_test.xml"
+Directory: /home/anna/pathplanning/PathPlanningProject/Build/Debug/Tests
+"Test12" start time: Nov 29 02:27 MSK
+Output:
+----------------------------------------------------------
+tiny
+Warning! Value of 'logpath' tag is missing!
+Value of 'logpath' tag was defined to 'current directory'.
+Warning! Value of 'logfilename' tag is missing.
+Value of 'logfilename' tag was defined to default (original filename +'_log' + original file extension.
+Incorrect path legth
+<end of output>
+Test time =   7.60 sec
+----------------------------------------------------------
+Test Failed.
+"Test12" end time: Nov 29 02:27 MSK
+"Test12" time elapsed: 00:00:07
+----------------------------------------------------------
+
+End testing: Nov 29 02:27 MSK

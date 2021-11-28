@@ -17,6 +17,18 @@ class Search
         SearchResult startSearch(ILogger *Logger, const Map &Map, const EnvironmentOptions &options);
 
     protected:
+        std::vector<Node*> OPEN;
+        std::vector<Node*> CLOSE;
+
+        bool Condition();
+        int Optimal();
+        std::vector<std::pair<int, int>> Successors(Node* curr, const Map &Map, const EnvironmentOptions &options);
+        int Find(int i, int j);
+        int FindClosed(int i, int j);
+        void Update(Node* parent, Node* child, const Map &map);
+        double Heuristic(int i, int j);
+        void makePrimaryPath(Node* curNode);
+        void makeSecondaryPath();
         //CODE HERE
 
         //Hint 1. You definetely need class variables for OPEN and CLOSE

@@ -1,0 +1,4341 @@
+now looking at 20 12
+next successor 20 13
+is a new node
+next successor 20 11
+is a new node
+next successor 21 12
+is a new node
+next successor 19 12
+is a new node
+now looking at 20 13
+next successor 20 14
+is a new node
+next successor 20 12
+is in closed
+next successor 21 13
+is a new node
+next successor 19 13
+is a new node
+now looking at 20 11
+next successor 20 12
+is in closed
+next successor 20 10
+is a new node
+next successor 21 11
+is a new node
+next successor 19 11
+is a new node
+now looking at 21 12
+next successor 21 13
+is in open
+next successor 21 11
+is in open
+next successor 22 12
+is a new node
+next successor 20 12
+is in closed
+now looking at 19 12
+next successor 19 13
+is in open
+next successor 19 11
+is in open
+next successor 20 12
+is in closed
+next successor 18 12
+is a new node
+now looking at 20 14
+next successor 20 15
+is a new node
+next successor 20 13
+is in closed
+next successor 21 14
+is a new node
+next successor 19 14
+is a new node
+now looking at 21 13
+next successor 21 14
+is in open
+next successor 21 12
+is in closed
+next successor 22 13
+is a new node
+next successor 20 13
+is in closed
+now looking at 19 13
+next successor 19 14
+is in open
+next successor 19 12
+is in closed
+next successor 20 13
+is in closed
+next successor 18 13
+is a new node
+now looking at 20 10
+next successor 20 11
+is in closed
+next successor 20 9
+is a new node
+next successor 21 10
+is a new node
+next successor 19 10
+is a new node
+now looking at 21 11
+next successor 21 12
+is in closed
+next successor 21 10
+is in open
+next successor 22 11
+is a new node
+next successor 20 11
+is in closed
+now looking at 19 11
+next successor 19 12
+is in closed
+next successor 19 10
+is in open
+next successor 20 11
+is in closed
+next successor 18 11
+is a new node
+now looking at 22 12
+next successor 22 13
+is in open
+next successor 22 11
+is in open
+next successor 23 12
+is a new node
+next successor 21 12
+is in closed
+now looking at 18 12
+next successor 18 13
+is in open
+next successor 18 11
+is in open
+next successor 19 12
+is in closed
+next successor 17 12
+is a new node
+now looking at 20 15
+next successor 20 16
+is a new node
+next successor 20 14
+is in closed
+next successor 21 15
+is a new node
+next successor 19 15
+is a new node
+now looking at 21 14
+next successor 21 15
+is in open
+next successor 21 13
+is in closed
+next successor 22 14
+is a new node
+next successor 20 14
+is in closed
+now looking at 19 14
+next successor 19 15
+is in open
+next successor 19 13
+is in closed
+next successor 20 14
+is in closed
+next successor 18 14
+is a new node
+now looking at 22 13
+next successor 22 14
+is in open
+next successor 22 12
+is in closed
+next successor 23 13
+is a new node
+next successor 21 13
+is in closed
+now looking at 18 13
+next successor 18 14
+is in open
+next successor 18 12
+is in closed
+next successor 19 13
+is in closed
+next successor 17 13
+is a new node
+now looking at 20 9
+next successor 20 10
+is in closed
+next successor 20 8
+is a new node
+next successor 21 9
+is a new node
+next successor 19 9
+is a new node
+now looking at 21 10
+next successor 21 11
+is in closed
+next successor 21 9
+is in open
+next successor 22 10
+is a new node
+next successor 20 10
+is in closed
+now looking at 19 10
+next successor 19 11
+is in closed
+next successor 19 9
+is in open
+next successor 20 10
+is in closed
+next successor 18 10
+is a new node
+now looking at 22 11
+next successor 22 12
+is in closed
+next successor 22 10
+is in open
+next successor 23 11
+is a new node
+next successor 21 11
+is in closed
+now looking at 18 11
+next successor 18 12
+is in closed
+next successor 18 10
+is in open
+next successor 19 11
+is in closed
+next successor 17 11
+is a new node
+now looking at 23 12
+next successor 23 13
+is in open
+next successor 23 11
+is in open
+next successor 24 12
+is a new node
+next successor 22 12
+is in closed
+now looking at 17 12
+next successor 17 13
+is in open
+next successor 17 11
+is in open
+next successor 18 12
+is in closed
+next successor 16 12
+is a new node
+now looking at 20 16
+next successor 20 17
+is a new node
+next successor 20 15
+is in closed
+next successor 21 16
+is a new node
+next successor 19 16
+is a new node
+now looking at 21 15
+next successor 21 16
+is in open
+next successor 21 14
+is in closed
+next successor 22 15
+is a new node
+next successor 20 15
+is in closed
+now looking at 19 15
+next successor 19 16
+is in open
+next successor 19 14
+is in closed
+next successor 20 15
+is in closed
+next successor 18 15
+is a new node
+now looking at 22 14
+next successor 22 15
+is in open
+next successor 22 13
+is in closed
+next successor 23 14
+is a new node
+next successor 21 14
+is in closed
+now looking at 18 14
+next successor 18 15
+is in open
+next successor 18 13
+is in closed
+next successor 19 14
+is in closed
+next successor 17 14
+is a new node
+now looking at 23 13
+next successor 23 14
+is in open
+next successor 23 12
+is in closed
+next successor 24 13
+is a new node
+next successor 22 13
+is in closed
+now looking at 17 13
+next successor 17 14
+is in open
+next successor 17 12
+is in closed
+next successor 18 13
+is in closed
+next successor 16 13
+is a new node
+now looking at 20 8
+next successor 20 9
+is in closed
+next successor 20 7
+is a new node
+next successor 21 8
+is a new node
+next successor 19 8
+is a new node
+now looking at 21 9
+next successor 21 10
+is in closed
+next successor 21 8
+is in open
+next successor 22 9
+is a new node
+next successor 20 9
+is in closed
+now looking at 19 9
+next successor 19 10
+is in closed
+next successor 19 8
+is in open
+next successor 20 9
+is in closed
+next successor 18 9
+is a new node
+now looking at 22 10
+next successor 22 11
+is in closed
+next successor 22 9
+is in open
+next successor 23 10
+is a new node
+next successor 21 10
+is in closed
+now looking at 18 10
+next successor 18 11
+is in closed
+next successor 18 9
+is in open
+next successor 19 10
+is in closed
+next successor 17 10
+is a new node
+now looking at 23 11
+next successor 23 12
+is in closed
+next successor 23 10
+is in open
+next successor 24 11
+is a new node
+next successor 22 11
+is in closed
+now looking at 17 11
+next successor 17 12
+is in closed
+next successor 17 10
+is in open
+next successor 18 11
+is in closed
+next successor 16 11
+is a new node
+now looking at 24 12
+next successor 24 13
+is in open
+next successor 24 11
+is in open
+next successor 23 12
+is in closed
+now looking at 16 12
+next successor 16 13
+is in open
+next successor 16 11
+is in open
+next successor 17 12
+is in closed
+next successor 15 12
+is a new node
+now looking at 20 17
+next successor 20 18
+is a new node
+next successor 20 16
+is in closed
+next successor 21 17
+is a new node
+next successor 19 17
+is a new node
+now looking at 21 16
+next successor 21 17
+is in open
+next successor 21 15
+is in closed
+next successor 22 16
+is a new node
+next successor 20 16
+is in closed
+now looking at 19 16
+next successor 19 17
+is in open
+next successor 19 15
+is in closed
+next successor 20 16
+is in closed
+next successor 18 16
+is a new node
+now looking at 22 15
+next successor 22 16
+is in open
+next successor 22 14
+is in closed
+next successor 23 15
+is a new node
+next successor 21 15
+is in closed
+now looking at 18 15
+next successor 18 16
+is in open
+next successor 18 14
+is in closed
+next successor 19 15
+is in closed
+next successor 17 15
+is a new node
+now looking at 23 14
+next successor 23 15
+is in open
+next successor 23 13
+is in closed
+next successor 24 14
+is a new node
+next successor 22 14
+is in closed
+now looking at 17 14
+next successor 17 15
+is in open
+next successor 17 13
+is in closed
+next successor 18 14
+is in closed
+next successor 16 14
+is a new node
+now looking at 24 13
+next successor 24 14
+is in open
+next successor 24 12
+is in closed
+next successor 23 13
+is in closed
+now looking at 16 13
+next successor 16 14
+is in open
+next successor 16 12
+is in closed
+next successor 17 13
+is in closed
+next successor 15 13
+is a new node
+now looking at 20 7
+next successor 20 8
+is in closed
+next successor 20 6
+is a new node
+next successor 21 7
+is a new node
+next successor 19 7
+is a new node
+now looking at 21 8
+next successor 21 9
+is in closed
+next successor 21 7
+is in open
+next successor 22 8
+is a new node
+next successor 20 8
+is in closed
+now looking at 19 8
+next successor 19 9
+is in closed
+next successor 19 7
+is in open
+next successor 20 8
+is in closed
+next successor 18 8
+is a new node
+now looking at 22 9
+next successor 22 10
+is in closed
+next successor 22 8
+is in open
+next successor 23 9
+is a new node
+next successor 21 9
+is in closed
+now looking at 18 9
+next successor 18 10
+is in closed
+next successor 18 8
+is in open
+next successor 19 9
+is in closed
+next successor 17 9
+is a new node
+now looking at 23 10
+next successor 23 11
+is in closed
+next successor 23 9
+is in open
+next successor 24 10
+is a new node
+next successor 22 10
+is in closed
+now looking at 17 10
+next successor 17 11
+is in closed
+next successor 17 9
+is in open
+next successor 18 10
+is in closed
+next successor 16 10
+is a new node
+now looking at 24 11
+next successor 24 12
+is in closed
+next successor 24 10
+is in open
+next successor 23 11
+is in closed
+now looking at 16 11
+next successor 16 12
+is in closed
+next successor 16 10
+is in open
+next successor 17 11
+is in closed
+next successor 15 11
+is a new node
+now looking at 15 12
+next successor 15 13
+is in open
+next successor 15 11
+is in open
+next successor 16 12
+is in closed
+now looking at 20 18
+next successor 20 19
+is a new node
+next successor 20 17
+is in closed
+next successor 21 18
+is a new node
+next successor 19 18
+is a new node
+now looking at 21 17
+next successor 21 18
+is in open
+next successor 21 16
+is in closed
+next successor 22 17
+is a new node
+next successor 20 17
+is in closed
+now looking at 19 17
+next successor 19 18
+is in open
+next successor 19 16
+is in closed
+next successor 20 17
+is in closed
+next successor 18 17
+is a new node
+now looking at 22 16
+next successor 22 17
+is in open
+next successor 22 15
+is in closed
+next successor 23 16
+is a new node
+next successor 21 16
+is in closed
+now looking at 18 16
+next successor 18 17
+is in open
+next successor 18 15
+is in closed
+next successor 19 16
+is in closed
+next successor 17 16
+is a new node
+now looking at 23 15
+next successor 23 16
+is in open
+next successor 23 14
+is in closed
+next successor 24 15
+is a new node
+next successor 22 15
+is in closed
+now looking at 17 15
+next successor 17 16
+is in open
+next successor 17 14
+is in closed
+next successor 18 15
+is in closed
+next successor 16 15
+is a new node
+now looking at 24 14
+next successor 24 15
+is in open
+next successor 24 13
+is in closed
+next successor 23 14
+is in closed
+now looking at 16 14
+next successor 16 15
+is in open
+next successor 16 13
+is in closed
+next successor 17 14
+is in closed
+next successor 15 14
+is a new node
+now looking at 15 13
+next successor 15 14
+is in open
+next successor 15 12
+is in closed
+next successor 16 13
+is in closed
+now looking at 20 6
+next successor 20 7
+is in closed
+next successor 20 5
+is a new node
+next successor 21 6
+is a new node
+next successor 19 6
+is a new node
+now looking at 21 7
+next successor 21 8
+is in closed
+next successor 21 6
+is in open
+next successor 22 7
+is a new node
+next successor 20 7
+is in closed
+now looking at 19 7
+next successor 19 8
+is in closed
+next successor 19 6
+is in open
+next successor 20 7
+is in closed
+next successor 18 7
+is a new node
+now looking at 22 8
+next successor 22 9
+is in closed
+next successor 22 7
+is in open
+next successor 23 8
+is a new node
+next successor 21 8
+is in closed
+now looking at 18 8
+next successor 18 9
+is in closed
+next successor 18 7
+is in open
+next successor 19 8
+is in closed
+next successor 17 8
+is a new node
+now looking at 23 9
+next successor 23 10
+is in closed
+next successor 23 8
+is in open
+next successor 24 9
+is a new node
+next successor 22 9
+is in closed
+now looking at 17 9
+next successor 17 10
+is in closed
+next successor 17 8
+is in open
+next successor 18 9
+is in closed
+next successor 16 9
+is a new node
+now looking at 24 10
+next successor 24 11
+is in closed
+next successor 24 9
+is in open
+next successor 23 10
+is in closed
+now looking at 16 10
+next successor 16 11
+is in closed
+next successor 16 9
+is in open
+next successor 17 10
+is in closed
+next successor 15 10
+is a new node
+now looking at 15 11
+next successor 15 12
+is in closed
+next successor 15 10
+is in open
+next successor 16 11
+is in closed
+now looking at 20 19
+next successor 20 20
+is a new node
+next successor 20 18
+is in closed
+next successor 21 19
+is a new node
+next successor 19 19
+is a new node
+now looking at 21 18
+next successor 21 19
+is in open
+next successor 21 17
+is in closed
+next successor 22 18
+is a new node
+next successor 20 18
+is in closed
+now looking at 19 18
+next successor 19 19
+is in open
+next successor 19 17
+is in closed
+next successor 20 18
+is in closed
+next successor 18 18
+is a new node
+now looking at 22 17
+next successor 22 18
+is in open
+next successor 22 16
+is in closed
+next successor 23 17
+is a new node
+next successor 21 17
+is in closed
+now looking at 18 17
+next successor 18 18
+is in open
+next successor 18 16
+is in closed
+next successor 19 17
+is in closed
+next successor 17 17
+is a new node
+now looking at 23 16
+next successor 23 17
+is in open
+next successor 23 15
+is in closed
+next successor 24 16
+is a new node
+next successor 22 16
+is in closed
+now looking at 17 16
+next successor 17 17
+is in open
+next successor 17 15
+is in closed
+next successor 18 16
+is in closed
+next successor 16 16
+is a new node
+now looking at 24 15
+next successor 24 16
+is in open
+next successor 24 14
+is in closed
+next successor 23 15
+is in closed
+now looking at 16 15
+next successor 16 16
+is in open
+next successor 16 14
+is in closed
+next successor 17 15
+is in closed
+next successor 15 15
+is a new node
+now looking at 15 14
+next successor 15 15
+is in open
+next successor 15 13
+is in closed
+next successor 16 14
+is in closed
+now looking at 20 5
+next successor 20 6
+is in closed
+next successor 20 4
+is a new node
+next successor 21 5
+is a new node
+next successor 19 5
+is a new node
+now looking at 21 6
+next successor 21 7
+is in closed
+next successor 21 5
+is in open
+next successor 22 6
+is a new node
+next successor 20 6
+is in closed
+now looking at 19 6
+next successor 19 7
+is in closed
+next successor 19 5
+is in open
+next successor 20 6
+is in closed
+next successor 18 6
+is a new node
+now looking at 22 7
+next successor 22 8
+is in closed
+next successor 22 6
+is in open
+next successor 23 7
+is a new node
+next successor 21 7
+is in closed
+now looking at 18 7
+next successor 18 8
+is in closed
+next successor 18 6
+is in open
+next successor 19 7
+is in closed
+next successor 17 7
+is a new node
+now looking at 23 8
+next successor 23 9
+is in closed
+next successor 23 7
+is in open
+next successor 24 8
+is a new node
+next successor 22 8
+is in closed
+now looking at 17 8
+next successor 17 9
+is in closed
+next successor 17 7
+is in open
+next successor 18 8
+is in closed
+next successor 16 8
+is a new node
+now looking at 24 9
+next successor 24 10
+is in closed
+next successor 24 8
+is in open
+next successor 23 9
+is in closed
+now looking at 16 9
+next successor 16 10
+is in closed
+next successor 16 8
+is in open
+next successor 17 9
+is in closed
+next successor 15 9
+is a new node
+now looking at 15 10
+next successor 15 11
+is in closed
+next successor 15 9
+is in open
+next successor 16 10
+is in closed
+now looking at 20 20
+next successor 20 21
+is a new node
+next successor 20 19
+is in closed
+next successor 21 20
+is a new node
+next successor 19 20
+is a new node
+now looking at 21 19
+next successor 21 20
+is in open
+next successor 21 18
+is in closed
+next successor 22 19
+is a new node
+next successor 20 19
+is in closed
+now looking at 19 19
+next successor 19 20
+is in open
+next successor 19 18
+is in closed
+next successor 20 19
+is in closed
+next successor 18 19
+is a new node
+now looking at 22 18
+next successor 22 19
+is in open
+next successor 22 17
+is in closed
+next successor 23 18
+is a new node
+next successor 21 18
+is in closed
+now looking at 18 18
+next successor 18 19
+is in open
+next successor 18 17
+is in closed
+next successor 19 18
+is in closed
+next successor 17 18
+is a new node
+now looking at 23 17
+next successor 23 18
+is in open
+next successor 23 16
+is in closed
+next successor 24 17
+is a new node
+next successor 22 17
+is in closed
+now looking at 17 17
+next successor 17 18
+is in open
+next successor 17 16
+is in closed
+next successor 18 17
+is in closed
+next successor 16 17
+is a new node
+now looking at 24 16
+next successor 24 17
+is in open
+next successor 24 15
+is in closed
+next successor 23 16
+is in closed
+now looking at 16 16
+next successor 16 17
+is in open
+next successor 16 15
+is in closed
+next successor 17 16
+is in closed
+next successor 15 16
+is a new node
+now looking at 15 15
+next successor 15 16
+is in open
+next successor 15 14
+is in closed
+next successor 16 15
+is in closed
+now looking at 20 4
+next successor 20 5
+is in closed
+next successor 20 3
+is a new node
+next successor 21 4
+is a new node
+next successor 19 4
+is a new node
+now looking at 21 5
+next successor 21 6
+is in closed
+next successor 21 4
+is in open
+next successor 22 5
+is a new node
+next successor 20 5
+is in closed
+now looking at 19 5
+next successor 19 6
+is in closed
+next successor 19 4
+is in open
+next successor 20 5
+is in closed
+next successor 18 5
+is a new node
+now looking at 22 6
+next successor 22 7
+is in closed
+next successor 22 5
+is in open
+next successor 23 6
+is a new node
+next successor 21 6
+is in closed
+now looking at 18 6
+next successor 18 7
+is in closed
+next successor 18 5
+is in open
+next successor 19 6
+is in closed
+next successor 17 6
+is a new node
+now looking at 23 7
+next successor 23 8
+is in closed
+next successor 23 6
+is in open
+next successor 24 7
+is a new node
+next successor 22 7
+is in closed
+now looking at 17 7
+next successor 17 8
+is in closed
+next successor 17 6
+is in open
+next successor 18 7
+is in closed
+next successor 16 7
+is a new node
+now looking at 24 8
+next successor 24 9
+is in closed
+next successor 24 7
+is in open
+next successor 23 8
+is in closed
+now looking at 16 8
+next successor 16 9
+is in closed
+next successor 16 7
+is in open
+next successor 17 8
+is in closed
+next successor 15 8
+is a new node
+now looking at 15 9
+next successor 15 10
+is in closed
+next successor 15 8
+is in open
+next successor 16 9
+is in closed
+next successor 14 9
+is a new node
+now looking at 20 21
+next successor 20 22
+is a new node
+next successor 20 20
+is in closed
+next successor 21 21
+is a new node
+next successor 19 21
+is a new node
+now looking at 21 20
+next successor 21 21
+is in open
+next successor 21 19
+is in closed
+next successor 22 20
+is a new node
+next successor 20 20
+is in closed
+now looking at 19 20
+next successor 19 21
+is in open
+next successor 19 19
+is in closed
+next successor 20 20
+is in closed
+next successor 18 20
+is a new node
+now looking at 22 19
+next successor 22 20
+is in open
+next successor 22 18
+is in closed
+next successor 23 19
+is a new node
+next successor 21 19
+is in closed
+now looking at 18 19
+next successor 18 20
+is in open
+next successor 18 18
+is in closed
+next successor 19 19
+is in closed
+next successor 17 19
+is a new node
+now looking at 23 18
+next successor 23 19
+is in open
+next successor 23 17
+is in closed
+next successor 24 18
+is a new node
+next successor 22 18
+is in closed
+now looking at 17 18
+next successor 17 19
+is in open
+next successor 17 17
+is in closed
+next successor 18 18
+is in closed
+next successor 16 18
+is a new node
+now looking at 24 17
+next successor 24 18
+is in open
+next successor 24 16
+is in closed
+next successor 23 17
+is in closed
+now looking at 16 17
+next successor 16 18
+is in open
+next successor 16 16
+is in closed
+next successor 17 17
+is in closed
+next successor 15 17
+is a new node
+now looking at 15 16
+next successor 15 17
+is in open
+next successor 15 15
+is in closed
+next successor 16 16
+is in closed
+next successor 14 16
+is a new node
+now looking at 20 3
+next successor 20 4
+is in closed
+next successor 20 2
+is a new node
+next successor 21 3
+is a new node
+next successor 19 3
+is a new node
+now looking at 21 4
+next successor 21 5
+is in closed
+next successor 21 3
+is in open
+next successor 22 4
+is a new node
+next successor 20 4
+is in closed
+now looking at 19 4
+next successor 19 5
+is in closed
+next successor 19 3
+is in open
+next successor 20 4
+is in closed
+next successor 18 4
+is a new node
+now looking at 22 5
+next successor 22 6
+is in closed
+next successor 22 4
+is in open
+next successor 23 5
+is a new node
+next successor 21 5
+is in closed
+now looking at 18 5
+next successor 18 6
+is in closed
+next successor 18 4
+is in open
+next successor 19 5
+is in closed
+next successor 17 5
+is a new node
+now looking at 23 6
+next successor 23 7
+is in closed
+next successor 23 5
+is in open
+next successor 24 6
+is a new node
+next successor 22 6
+is in closed
+now looking at 17 6
+next successor 17 7
+is in closed
+next successor 17 5
+is in open
+next successor 18 6
+is in closed
+next successor 16 6
+is a new node
+now looking at 24 7
+next successor 24 8
+is in closed
+next successor 24 6
+is in open
+next successor 23 7
+is in closed
+now looking at 16 7
+next successor 16 8
+is in closed
+next successor 16 6
+is in open
+next successor 17 7
+is in closed
+next successor 15 7
+is a new node
+now looking at 15 8
+next successor 15 9
+is in closed
+next successor 15 7
+is in open
+next successor 16 8
+is in closed
+next successor 14 8
+is a new node
+now looking at 14 9
+next successor 14 8
+is in open
+next successor 15 9
+is in closed
+next successor 13 9
+is a new node
+now looking at 20 22
+next successor 20 23
+is a new node
+next successor 20 21
+is in closed
+next successor 21 22
+is a new node
+next successor 19 22
+is a new node
+now looking at 21 21
+next successor 21 22
+is in open
+next successor 21 20
+is in closed
+next successor 22 21
+is a new node
+next successor 20 21
+is in closed
+now looking at 19 21
+next successor 19 22
+is in open
+next successor 19 20
+is in closed
+next successor 20 21
+is in closed
+next successor 18 21
+is a new node
+now looking at 22 20
+next successor 22 21
+is in open
+next successor 22 19
+is in closed
+next successor 23 20
+is a new node
+next successor 21 20
+is in closed
+now looking at 18 20
+next successor 18 21
+is in open
+next successor 18 19
+is in closed
+next successor 19 20
+is in closed
+next successor 17 20
+is a new node
+now looking at 23 19
+next successor 23 20
+is in open
+next successor 23 18
+is in closed
+next successor 24 19
+is a new node
+next successor 22 19
+is in closed
+now looking at 17 19
+next successor 17 20
+is in open
+next successor 17 18
+is in closed
+next successor 18 19
+is in closed
+next successor 16 19
+is a new node
+now looking at 24 18
+next successor 24 19
+is in open
+next successor 24 17
+is in closed
+next successor 23 18
+is in closed
+now looking at 16 18
+next successor 16 19
+is in open
+next successor 16 17
+is in closed
+next successor 17 18
+is in closed
+next successor 15 18
+is a new node
+now looking at 15 17
+next successor 15 18
+is in open
+next successor 15 16
+is in closed
+next successor 16 17
+is in closed
+next successor 14 17
+is a new node
+now looking at 14 16
+next successor 14 17
+is in open
+next successor 15 16
+is in closed
+next successor 13 16
+is a new node
+now looking at 20 2
+next successor 20 3
+is in closed
+next successor 20 1
+is a new node
+next successor 21 2
+is a new node
+next successor 19 2
+is a new node
+now looking at 21 3
+next successor 21 4
+is in closed
+next successor 21 2
+is in open
+next successor 22 3
+is a new node
+next successor 20 3
+is in closed
+now looking at 19 3
+next successor 19 4
+is in closed
+next successor 19 2
+is in open
+next successor 20 3
+is in closed
+next successor 18 3
+is a new node
+now looking at 22 4
+next successor 22 5
+is in closed
+next successor 22 3
+is in open
+next successor 23 4
+is a new node
+next successor 21 4
+is in closed
+now looking at 18 4
+next successor 18 5
+is in closed
+next successor 18 3
+is in open
+next successor 19 4
+is in closed
+next successor 17 4
+is a new node
+now looking at 23 5
+next successor 23 6
+is in closed
+next successor 23 4
+is in open
+next successor 24 5
+is a new node
+next successor 22 5
+is in closed
+now looking at 17 5
+next successor 17 6
+is in closed
+next successor 17 4
+is in open
+next successor 18 5
+is in closed
+next successor 16 5
+is a new node
+now looking at 24 6
+next successor 24 7
+is in closed
+next successor 24 5
+is in open
+next successor 23 6
+is in closed
+now looking at 16 6
+next successor 16 7
+is in closed
+next successor 16 5
+is in open
+next successor 17 6
+is in closed
+next successor 15 6
+is a new node
+now looking at 15 7
+next successor 15 8
+is in closed
+next successor 15 6
+is in open
+next successor 16 7
+is in closed
+next successor 14 7
+is a new node
+now looking at 14 8
+next successor 14 9
+is in closed
+next successor 14 7
+is in open
+next successor 15 8
+is in closed
+next successor 13 8
+is a new node
+now looking at 13 9
+next successor 13 8
+is in open
+next successor 14 9
+is in closed
+next successor 12 9
+is a new node
+now looking at 20 23
+next successor 20 24
+is a new node
+next successor 20 22
+is in closed
+next successor 21 23
+is a new node
+next successor 19 23
+is a new node
+now looking at 21 22
+next successor 21 23
+is in open
+next successor 21 21
+is in closed
+next successor 22 22
+is a new node
+next successor 20 22
+is in closed
+now looking at 19 22
+next successor 19 23
+is in open
+next successor 19 21
+is in closed
+next successor 20 22
+is in closed
+next successor 18 22
+is a new node
+now looking at 22 21
+next successor 22 22
+is in open
+next successor 22 20
+is in closed
+next successor 23 21
+is a new node
+next successor 21 21
+is in closed
+now looking at 18 21
+next successor 18 22
+is in open
+next successor 18 20
+is in closed
+next successor 19 21
+is in closed
+next successor 17 21
+is a new node
+now looking at 23 20
+next successor 23 21
+is in open
+next successor 23 19
+is in closed
+next successor 24 20
+is a new node
+next successor 22 20
+is in closed
+now looking at 17 20
+next successor 17 21
+is in open
+next successor 17 19
+is in closed
+next successor 18 20
+is in closed
+next successor 16 20
+is a new node
+now looking at 24 19
+next successor 24 20
+is in open
+next successor 24 18
+is in closed
+next successor 23 19
+is in closed
+now looking at 16 19
+next successor 16 20
+is in open
+next successor 16 18
+is in closed
+next successor 17 19
+is in closed
+next successor 15 19
+is a new node
+now looking at 15 18
+next successor 15 19
+is in open
+next successor 15 17
+is in closed
+next successor 16 18
+is in closed
+next successor 14 18
+is a new node
+now looking at 14 17
+next successor 14 18
+is in open
+next successor 14 16
+is in closed
+next successor 15 17
+is in closed
+next successor 13 17
+is a new node
+now looking at 13 16
+next successor 13 17
+is in open
+next successor 14 16
+is in closed
+next successor 12 16
+is a new node
+now looking at 20 1
+next successor 20 2
+is in closed
+next successor 20 0
+is a new node
+next successor 21 1
+is a new node
+next successor 19 1
+is a new node
+now looking at 21 2
+next successor 21 3
+is in closed
+next successor 21 1
+is in open
+next successor 22 2
+is a new node
+next successor 20 2
+is in closed
+now looking at 19 2
+next successor 19 3
+is in closed
+next successor 19 1
+is in open
+next successor 20 2
+is in closed
+next successor 18 2
+is a new node
+now looking at 22 3
+next successor 22 4
+is in closed
+next successor 22 2
+is in open
+next successor 23 3
+is a new node
+next successor 21 3
+is in closed
+now looking at 18 3
+next successor 18 4
+is in closed
+next successor 18 2
+is in open
+next successor 19 3
+is in closed
+next successor 17 3
+is a new node
+now looking at 23 4
+next successor 23 5
+is in closed
+next successor 23 3
+is in open
+next successor 24 4
+is a new node
+next successor 22 4
+is in closed
+now looking at 17 4
+next successor 17 5
+is in closed
+next successor 17 3
+is in open
+next successor 18 4
+is in closed
+next successor 16 4
+is a new node
+now looking at 24 5
+next successor 24 6
+is in closed
+next successor 24 4
+is in open
+next successor 23 5
+is in closed
+now looking at 16 5
+next successor 16 6
+is in closed
+next successor 16 4
+is in open
+next successor 17 5
+is in closed
+next successor 15 5
+is a new node
+now looking at 15 6
+next successor 15 7
+is in closed
+next successor 15 5
+is in open
+next successor 16 6
+is in closed
+next successor 14 6
+is a new node
+now looking at 14 7
+next successor 14 8
+is in closed
+next successor 14 6
+is in open
+next successor 15 7
+is in closed
+next successor 13 7
+is a new node
+now looking at 13 8
+next successor 13 9
+is in closed
+next successor 13 7
+is in open
+next successor 14 8
+is in closed
+next successor 12 8
+is a new node
+now looking at 12 9
+next successor 12 8
+is in open
+next successor 13 9
+is in closed
+next successor 11 9
+is a new node
+now looking at 20 24
+next successor 20 23
+is in closed
+next successor 21 24
+is a new node
+next successor 19 24
+is a new node
+now looking at 21 23
+next successor 21 24
+is in open
+next successor 21 22
+is in closed
+next successor 22 23
+is a new node
+next successor 20 23
+is in closed
+now looking at 19 23
+next successor 19 24
+is in open
+next successor 19 22
+is in closed
+next successor 20 23
+is in closed
+next successor 18 23
+is a new node
+now looking at 22 22
+next successor 22 23
+is in open
+next successor 22 21
+is in closed
+next successor 23 22
+is a new node
+next successor 21 22
+is in closed
+now looking at 18 22
+next successor 18 23
+is in open
+next successor 18 21
+is in closed
+next successor 19 22
+is in closed
+next successor 17 22
+is a new node
+now looking at 23 21
+next successor 23 22
+is in open
+next successor 23 20
+is in closed
+next successor 24 21
+is a new node
+next successor 22 21
+is in closed
+now looking at 17 21
+next successor 17 22
+is in open
+next successor 17 20
+is in closed
+next successor 18 21
+is in closed
+next successor 16 21
+is a new node
+now looking at 24 20
+next successor 24 21
+is in open
+next successor 24 19
+is in closed
+next successor 23 20
+is in closed
+now looking at 16 20
+next successor 16 21
+is in open
+next successor 16 19
+is in closed
+next successor 17 20
+is in closed
+next successor 15 20
+is a new node
+now looking at 15 19
+next successor 15 20
+is in open
+next successor 15 18
+is in closed
+next successor 16 19
+is in closed
+next successor 14 19
+is a new node
+now looking at 14 18
+next successor 14 19
+is in open
+next successor 14 17
+is in closed
+next successor 15 18
+is in closed
+next successor 13 18
+is a new node
+now looking at 13 17
+next successor 13 18
+is in open
+next successor 13 16
+is in closed
+next successor 14 17
+is in closed
+next successor 12 17
+is a new node
+now looking at 12 16
+next successor 12 17
+is in open
+next successor 13 16
+is in closed
+next successor 11 16
+is a new node
+now looking at 20 0
+next successor 20 1
+is in closed
+next successor 21 0
+is a new node
+next successor 19 0
+is a new node
+now looking at 21 1
+next successor 21 2
+is in closed
+next successor 21 0
+is in open
+next successor 22 1
+is a new node
+next successor 20 1
+is in closed
+now looking at 19 1
+next successor 19 2
+is in closed
+next successor 19 0
+is in open
+next successor 20 1
+is in closed
+next successor 18 1
+is a new node
+now looking at 22 2
+next successor 22 3
+is in closed
+next successor 22 1
+is in open
+next successor 23 2
+is a new node
+next successor 21 2
+is in closed
+now looking at 18 2
+next successor 18 3
+is in closed
+next successor 18 1
+is in open
+next successor 19 2
+is in closed
+next successor 17 2
+is a new node
+now looking at 23 3
+next successor 23 4
+is in closed
+next successor 23 2
+is in open
+next successor 24 3
+is a new node
+next successor 22 3
+is in closed
+now looking at 17 3
+next successor 17 4
+is in closed
+next successor 17 2
+is in open
+next successor 18 3
+is in closed
+next successor 16 3
+is a new node
+now looking at 24 4
+next successor 24 5
+is in closed
+next successor 24 3
+is in open
+next successor 23 4
+is in closed
+now looking at 16 4
+next successor 16 5
+is in closed
+next successor 16 3
+is in open
+next successor 17 4
+is in closed
+next successor 15 4
+is a new node
+now looking at 15 5
+next successor 15 6
+is in closed
+next successor 15 4
+is in open
+next successor 16 5
+is in closed
+next successor 14 5
+is a new node
+now looking at 14 6
+next successor 14 7
+is in closed
+next successor 14 5
+is in open
+next successor 15 6
+is in closed
+next successor 13 6
+is a new node
+now looking at 13 7
+next successor 13 8
+is in closed
+next successor 13 6
+is in open
+next successor 14 7
+is in closed
+next successor 12 7
+is a new node
+now looking at 12 8
+next successor 12 9
+is in closed
+next successor 12 7
+is in open
+next successor 13 8
+is in closed
+next successor 11 8
+is a new node
+now looking at 11 9
+next successor 11 8
+is in open
+next successor 12 9
+is in closed
+next successor 10 9
+is a new node
+now looking at 21 24
+next successor 21 23
+is in closed
+next successor 22 24
+is a new node
+next successor 20 24
+is in closed
+now looking at 19 24
+next successor 19 23
+is in closed
+next successor 20 24
+is in closed
+next successor 18 24
+is a new node
+now looking at 22 23
+next successor 22 24
+is in open
+next successor 22 22
+is in closed
+next successor 23 23
+is a new node
+next successor 21 23
+is in closed
+now looking at 18 23
+next successor 18 24
+is in open
+next successor 18 22
+is in closed
+next successor 19 23
+is in closed
+next successor 17 23
+is a new node
+now looking at 23 22
+next successor 23 23
+is in open
+next successor 23 21
+is in closed
+next successor 24 22
+is a new node
+next successor 22 22
+is in closed
+now looking at 17 22
+next successor 17 23
+is in open
+next successor 17 21
+is in closed
+next successor 18 22
+is in closed
+next successor 16 22
+is a new node
+now looking at 24 21
+next successor 24 22
+is in open
+next successor 24 20
+is in closed
+next successor 23 21
+is in closed
+now looking at 16 21
+next successor 16 22
+is in open
+next successor 16 20
+is in closed
+next successor 17 21
+is in closed
+next successor 15 21
+is a new node
+now looking at 15 20
+next successor 15 21
+is in open
+next successor 15 19
+is in closed
+next successor 16 20
+is in closed
+next successor 14 20
+is a new node
+now looking at 14 19
+next successor 14 20
+is in open
+next successor 14 18
+is in closed
+next successor 15 19
+is in closed
+next successor 13 19
+is a new node
+now looking at 13 18
+next successor 13 19
+is in open
+next successor 13 17
+is in closed
+next successor 14 18
+is in closed
+next successor 12 18
+is a new node
+now looking at 12 17
+next successor 12 18
+is in open
+next successor 12 16
+is in closed
+next successor 13 17
+is in closed
+next successor 11 17
+is a new node
+now looking at 11 16
+next successor 11 17
+is in open
+next successor 12 16
+is in closed
+next successor 10 16
+is a new node
+now looking at 21 0
+next successor 21 1
+is in closed
+next successor 22 0
+is a new node
+next successor 20 0
+is in closed
+now looking at 19 0
+next successor 19 1
+is in closed
+next successor 20 0
+is in closed
+next successor 18 0
+is a new node
+now looking at 22 1
+next successor 22 2
+is in closed
+next successor 22 0
+is in open
+next successor 23 1
+is a new node
+next successor 21 1
+is in closed
+now looking at 18 1
+next successor 18 2
+is in closed
+next successor 18 0
+is in open
+next successor 19 1
+is in closed
+next successor 17 1
+is a new node
+now looking at 23 2
+next successor 23 3
+is in closed
+next successor 23 1
+is in open
+next successor 24 2
+is a new node
+next successor 22 2
+is in closed
+now looking at 17 2
+next successor 17 3
+is in closed
+next successor 17 1
+is in open
+next successor 18 2
+is in closed
+next successor 16 2
+is a new node
+now looking at 24 3
+next successor 24 4
+is in closed
+next successor 24 2
+is in open
+next successor 23 3
+is in closed
+now looking at 16 3
+next successor 16 4
+is in closed
+next successor 16 2
+is in open
+next successor 17 3
+is in closed
+next successor 15 3
+is a new node
+now looking at 15 4
+next successor 15 5
+is in closed
+next successor 15 3
+is in open
+next successor 16 4
+is in closed
+next successor 14 4
+is a new node
+now looking at 14 5
+next successor 14 6
+is in closed
+next successor 14 4
+is in open
+next successor 15 5
+is in closed
+next successor 13 5
+is a new node
+now looking at 13 6
+next successor 13 7
+is in closed
+next successor 13 5
+is in open
+next successor 14 6
+is in closed
+next successor 12 6
+is a new node
+now looking at 12 7
+next successor 12 8
+is in closed
+next successor 12 6
+is in open
+next successor 13 7
+is in closed
+next successor 11 7
+is a new node
+now looking at 11 8
+next successor 11 9
+is in closed
+next successor 11 7
+is in open
+next successor 12 8
+is in closed
+next successor 10 8
+is a new node
+now looking at 10 9
+next successor 10 8
+is in open
+next successor 11 9
+is in closed
+next successor 9 9
+is a new node
+now looking at 22 24
+next successor 22 23
+is in closed
+next successor 23 24
+is a new node
+next successor 21 24
+is in closed
+now looking at 18 24
+next successor 18 23
+is in closed
+next successor 19 24
+is in closed
+next successor 17 24
+is a new node
+now looking at 23 23
+next successor 23 24
+is in open
+next successor 23 22
+is in closed
+next successor 24 23
+is a new node
+next successor 22 23
+is in closed
+now looking at 17 23
+next successor 17 24
+is in open
+next successor 17 22
+is in closed
+next successor 18 23
+is in closed
+next successor 16 23
+is a new node
+now looking at 24 22
+next successor 24 23
+is in open
+next successor 24 21
+is in closed
+next successor 23 22
+is in closed
+now looking at 16 22
+next successor 16 23
+is in open
+next successor 16 21
+is in closed
+next successor 17 22
+is in closed
+next successor 15 22
+is a new node
+now looking at 15 21
+next successor 15 22
+is in open
+next successor 15 20
+is in closed
+next successor 16 21
+is in closed
+next successor 14 21
+is a new node
+now looking at 14 20
+next successor 14 21
+is in open
+next successor 14 19
+is in closed
+next successor 15 20
+is in closed
+next successor 13 20
+is a new node
+now looking at 13 19
+next successor 13 20
+is in open
+next successor 13 18
+is in closed
+next successor 14 19
+is in closed
+next successor 12 19
+is a new node
+now looking at 12 18
+next successor 12 19
+is in open
+next successor 12 17
+is in closed
+next successor 13 18
+is in closed
+next successor 11 18
+is a new node
+now looking at 11 17
+next successor 11 18
+is in open
+next successor 11 16
+is in closed
+next successor 12 17
+is in closed
+next successor 10 17
+is a new node
+now looking at 10 16
+next successor 10 17
+is in open
+next successor 11 16
+is in closed
+next successor 9 16
+is a new node
+now looking at 22 0
+next successor 22 1
+is in closed
+next successor 23 0
+is a new node
+next successor 21 0
+is in closed
+now looking at 18 0
+next successor 18 1
+is in closed
+next successor 19 0
+is in closed
+next successor 17 0
+is a new node
+now looking at 23 1
+next successor 23 2
+is in closed
+next successor 23 0
+is in open
+next successor 24 1
+is a new node
+next successor 22 1
+is in closed
+now looking at 17 1
+next successor 17 2
+is in closed
+next successor 17 0
+is in open
+next successor 18 1
+is in closed
+next successor 16 1
+is a new node
+now looking at 24 2
+next successor 24 3
+is in closed
+next successor 24 1
+is in open
+next successor 23 2
+is in closed
+now looking at 16 2
+next successor 16 3
+is in closed
+next successor 16 1
+is in open
+next successor 17 2
+is in closed
+next successor 15 2
+is a new node
+now looking at 15 3
+next successor 15 4
+is in closed
+next successor 15 2
+is in open
+next successor 16 3
+is in closed
+next successor 14 3
+is a new node
+now looking at 14 4
+next successor 14 5
+is in closed
+next successor 14 3
+is in open
+next successor 15 4
+is in closed
+next successor 13 4
+is a new node
+now looking at 13 5
+next successor 13 6
+is in closed
+next successor 13 4
+is in open
+next successor 14 5
+is in closed
+next successor 12 5
+is a new node
+now looking at 12 6
+next successor 12 7
+is in closed
+next successor 12 5
+is in open
+next successor 13 6
+is in closed
+next successor 11 6
+is a new node
+now looking at 11 7
+next successor 11 8
+is in closed
+next successor 11 6
+is in open
+next successor 12 7
+is in closed
+next successor 10 7
+is a new node
+now looking at 10 8
+next successor 10 9
+is in closed
+next successor 10 7
+is in open
+next successor 11 8
+is in closed
+next successor 9 8
+is a new node
+now looking at 9 9
+next successor 9 8
+is in open
+next successor 10 9
+is in closed
+now looking at 23 24
+next successor 23 23
+is in closed
+next successor 24 24
+is a new node
+next successor 22 24
+is in closed
+now looking at 17 24
+next successor 17 23
+is in closed
+next successor 18 24
+is in closed
+next successor 16 24
+is a new node
+now looking at 24 23
+next successor 24 24
+is in open
+next successor 24 22
+is in closed
+next successor 23 23
+is in closed
+now looking at 16 23
+next successor 16 24
+is in open
+next successor 16 22
+is in closed
+next successor 17 23
+is in closed
+next successor 15 23
+is a new node
+now looking at 15 22
+next successor 15 23
+is in open
+next successor 15 21
+is in closed
+next successor 16 22
+is in closed
+next successor 14 22
+is a new node
+now looking at 14 21
+next successor 14 22
+is in open
+next successor 14 20
+is in closed
+next successor 15 21
+is in closed
+next successor 13 21
+is a new node
+now looking at 13 20
+next successor 13 21
+is in open
+next successor 13 19
+is in closed
+next successor 14 20
+is in closed
+next successor 12 20
+is a new node
+now looking at 12 19
+next successor 12 20
+is in open
+next successor 12 18
+is in closed
+next successor 13 19
+is in closed
+next successor 11 19
+is a new node
+now looking at 11 18
+next successor 11 19
+is in open
+next successor 11 17
+is in closed
+next successor 12 18
+is in closed
+next successor 10 18
+is a new node
+now looking at 10 17
+next successor 10 18
+is in open
+next successor 10 16
+is in closed
+next successor 11 17
+is in closed
+next successor 9 17
+is a new node
+now looking at 9 16
+next successor 9 17
+is in open
+next successor 10 16
+is in closed
+now looking at 23 0
+next successor 23 1
+is in closed
+next successor 24 0
+is a new node
+next successor 22 0
+is in closed
+now looking at 17 0
+next successor 17 1
+is in closed
+next successor 18 0
+is in closed
+next successor 16 0
+is a new node
+now looking at 24 1
+next successor 24 2
+is in closed
+next successor 24 0
+is in open
+next successor 23 1
+is in closed
+now looking at 16 1
+next successor 16 2
+is in closed
+next successor 16 0
+is in open
+next successor 17 1
+is in closed
+next successor 15 1
+is a new node
+now looking at 15 2
+next successor 15 3
+is in closed
+next successor 15 1
+is in open
+next successor 16 2
+is in closed
+next successor 14 2
+is a new node
+now looking at 14 3
+next successor 14 4
+is in closed
+next successor 14 2
+is in open
+next successor 15 3
+is in closed
+next successor 13 3
+is a new node
+now looking at 13 4
+next successor 13 5
+is in closed
+next successor 13 3
+is in open
+next successor 14 4
+is in closed
+next successor 12 4
+is a new node
+now looking at 12 5
+next successor 12 6
+is in closed
+next successor 12 4
+is in open
+next successor 13 5
+is in closed
+next successor 11 5
+is a new node
+now looking at 11 6
+next successor 11 7
+is in closed
+next successor 11 5
+is in open
+next successor 12 6
+is in closed
+next successor 10 6
+is a new node
+now looking at 10 7
+next successor 10 8
+is in closed
+next successor 10 6
+is in open
+next successor 11 7
+is in closed
+next successor 9 7
+is a new node
+now looking at 9 8
+next successor 9 9
+is in closed
+next successor 9 7
+is in open
+next successor 10 8
+is in closed
+now looking at 24 24
+next successor 24 23
+is in closed
+next successor 23 24
+is in closed
+now looking at 16 24
+next successor 16 23
+is in closed
+next successor 17 24
+is in closed
+next successor 15 24
+is a new node
+now looking at 15 23
+next successor 15 24
+is in open
+next successor 15 22
+is in closed
+next successor 16 23
+is in closed
+next successor 14 23
+is a new node
+now looking at 14 22
+next successor 14 23
+is in open
+next successor 14 21
+is in closed
+next successor 15 22
+is in closed
+next successor 13 22
+is a new node
+now looking at 13 21
+next successor 13 22
+is in open
+next successor 13 20
+is in closed
+next successor 14 21
+is in closed
+next successor 12 21
+is a new node
+now looking at 12 20
+next successor 12 21
+is in open
+next successor 12 19
+is in closed
+next successor 13 20
+is in closed
+next successor 11 20
+is a new node
+now looking at 11 19
+next successor 11 20
+is in open
+next successor 11 18
+is in closed
+next successor 12 19
+is in closed
+next successor 10 19
+is a new node
+now looking at 10 18
+next successor 10 19
+is in open
+next successor 10 17
+is in closed
+next successor 11 18
+is in closed
+next successor 9 18
+is a new node
+now looking at 9 17
+next successor 9 18
+is in open
+next successor 9 16
+is in closed
+next successor 10 17
+is in closed
+now looking at 24 0
+next successor 24 1
+is in closed
+next successor 23 0
+is in closed
+now looking at 16 0
+next successor 16 1
+is in closed
+next successor 17 0
+is in closed
+next successor 15 0
+is a new node
+now looking at 15 1
+next successor 15 2
+is in closed
+next successor 15 0
+is in open
+next successor 16 1
+is in closed
+next successor 14 1
+is a new node
+now looking at 14 2
+next successor 14 3
+is in closed
+next successor 14 1
+is in open
+next successor 15 2
+is in closed
+next successor 13 2
+is a new node
+now looking at 13 3
+next successor 13 4
+is in closed
+next successor 13 2
+is in open
+next successor 14 3
+is in closed
+next successor 12 3
+is a new node
+now looking at 12 4
+next successor 12 5
+is in closed
+next successor 12 3
+is in open
+next successor 13 4
+is in closed
+next successor 11 4
+is a new node
+now looking at 11 5
+next successor 11 6
+is in closed
+next successor 11 4
+is in open
+next successor 12 5
+is in closed
+next successor 10 5
+is a new node
+now looking at 10 6
+next successor 10 7
+is in closed
+next successor 10 5
+is in open
+next successor 11 6
+is in closed
+next successor 9 6
+is a new node
+now looking at 9 7
+next successor 9 8
+is in closed
+next successor 9 6
+is in open
+next successor 10 7
+is in closed
+now looking at 15 24
+next successor 15 23
+is in closed
+next successor 16 24
+is in closed
+next successor 14 24
+is a new node
+now looking at 14 23
+next successor 14 24
+is in open
+next successor 14 22
+is in closed
+next successor 15 23
+is in closed
+next successor 13 23
+is a new node
+now looking at 13 22
+next successor 13 23
+is in open
+next successor 13 21
+is in closed
+next successor 14 22
+is in closed
+next successor 12 22
+is a new node
+now looking at 12 21
+next successor 12 22
+is in open
+next successor 12 20
+is in closed
+next successor 13 21
+is in closed
+next successor 11 21
+is a new node
+now looking at 11 20
+next successor 11 21
+is in open
+next successor 11 19
+is in closed
+next successor 12 20
+is in closed
+next successor 10 20
+is a new node
+now looking at 10 19
+next successor 10 20
+is in open
+next successor 10 18
+is in closed
+next successor 11 19
+is in closed
+next successor 9 19
+is a new node
+now looking at 9 18
+next successor 9 19
+is in open
+next successor 9 17
+is in closed
+next successor 10 18
+is in closed
+now looking at 15 0
+next successor 15 1
+is in closed
+next successor 16 0
+is in closed
+next successor 14 0
+is a new node
+now looking at 14 1
+next successor 14 2
+is in closed
+next successor 14 0
+is in open
+next successor 15 1
+is in closed
+next successor 13 1
+is a new node
+now looking at 13 2
+next successor 13 3
+is in closed
+next successor 13 1
+is in open
+next successor 14 2
+is in closed
+next successor 12 2
+is a new node
+now looking at 12 3
+next successor 12 4
+is in closed
+next successor 12 2
+is in open
+next successor 13 3
+is in closed
+next successor 11 3
+is a new node
+now looking at 11 4
+next successor 11 5
+is in closed
+next successor 11 3
+is in open
+next successor 12 4
+is in closed
+next successor 10 4
+is a new node
+now looking at 10 5
+next successor 10 6
+is in closed
+next successor 10 4
+is in open
+next successor 11 5
+is in closed
+next successor 9 5
+is a new node
+now looking at 9 6
+next successor 9 7
+is in closed
+next successor 9 5
+is in open
+next successor 10 6
+is in closed
+now looking at 14 24
+next successor 14 23
+is in closed
+next successor 15 24
+is in closed
+next successor 13 24
+is a new node
+now looking at 13 23
+next successor 13 24
+is in open
+next successor 13 22
+is in closed
+next successor 14 23
+is in closed
+next successor 12 23
+is a new node
+now looking at 12 22
+next successor 12 23
+is in open
+next successor 12 21
+is in closed
+next successor 13 22
+is in closed
+next successor 11 22
+is a new node
+now looking at 11 21
+next successor 11 22
+is in open
+next successor 11 20
+is in closed
+next successor 12 21
+is in closed
+next successor 10 21
+is a new node
+now looking at 10 20
+next successor 10 21
+is in open
+next successor 10 19
+is in closed
+next successor 11 20
+is in closed
+next successor 9 20
+is a new node
+now looking at 9 19
+next successor 9 20
+is in open
+next successor 9 18
+is in closed
+next successor 10 19
+is in closed
+now looking at 14 0
+next successor 14 1
+is in closed
+next successor 15 0
+is in closed
+next successor 13 0
+is a new node
+now looking at 13 1
+next successor 13 2
+is in closed
+next successor 13 0
+is in open
+next successor 14 1
+is in closed
+next successor 12 1
+is a new node
+now looking at 12 2
+next successor 12 3
+is in closed
+next successor 12 1
+is in open
+next successor 13 2
+is in closed
+next successor 11 2
+is a new node
+now looking at 11 3
+next successor 11 4
+is in closed
+next successor 11 2
+is in open
+next successor 12 3
+is in closed
+next successor 10 3
+is a new node
+now looking at 10 4
+next successor 10 5
+is in closed
+next successor 10 3
+is in open
+next successor 11 4
+is in closed
+next successor 9 4
+is a new node
+now looking at 9 5
+next successor 9 6
+is in closed
+next successor 9 4
+is in open
+next successor 10 5
+is in closed
+now looking at 13 24
+next successor 13 23
+is in closed
+next successor 14 24
+is in closed
+next successor 12 24
+is a new node
+now looking at 12 23
+next successor 12 24
+is in open
+next successor 12 22
+is in closed
+next successor 13 23
+is in closed
+next successor 11 23
+is a new node
+now looking at 11 22
+next successor 11 23
+is in open
+next successor 11 21
+is in closed
+next successor 12 22
+is in closed
+next successor 10 22
+is a new node
+now looking at 10 21
+next successor 10 22
+is in open
+next successor 10 20
+is in closed
+next successor 11 21
+is in closed
+next successor 9 21
+is a new node
+now looking at 9 20
+next successor 9 21
+is in open
+next successor 9 19
+is in closed
+next successor 10 20
+is in closed
+now looking at 13 0
+next successor 13 1
+is in closed
+next successor 14 0
+is in closed
+next successor 12 0
+is a new node
+now looking at 12 1
+next successor 12 2
+is in closed
+next successor 12 0
+is in open
+next successor 13 1
+is in closed
+next successor 11 1
+is a new node
+now looking at 11 2
+next successor 11 3
+is in closed
+next successor 11 1
+is in open
+next successor 12 2
+is in closed
+next successor 10 2
+is a new node
+now looking at 10 3
+next successor 10 4
+is in closed
+next successor 10 2
+is in open
+next successor 11 3
+is in closed
+next successor 9 3
+is a new node
+now looking at 9 4
+next successor 9 5
+is in closed
+next successor 9 3
+is in open
+next successor 10 4
+is in closed
+now looking at 12 24
+next successor 12 23
+is in closed
+next successor 13 24
+is in closed
+next successor 11 24
+is a new node
+now looking at 11 23
+next successor 11 24
+is in open
+next successor 11 22
+is in closed
+next successor 12 23
+is in closed
+next successor 10 23
+is a new node
+now looking at 10 22
+next successor 10 23
+is in open
+next successor 10 21
+is in closed
+next successor 11 22
+is in closed
+next successor 9 22
+is a new node
+now looking at 9 21
+next successor 9 22
+is in open
+next successor 9 20
+is in closed
+next successor 10 21
+is in closed
+now looking at 12 0
+next successor 12 1
+is in closed
+next successor 13 0
+is in closed
+next successor 11 0
+is a new node
+now looking at 11 1
+next successor 11 2
+is in closed
+next successor 11 0
+is in open
+next successor 12 1
+is in closed
+next successor 10 1
+is a new node
+now looking at 10 2
+next successor 10 3
+is in closed
+next successor 10 1
+is in open
+next successor 11 2
+is in closed
+next successor 9 2
+is a new node
+now looking at 9 3
+next successor 9 4
+is in closed
+next successor 9 2
+is in open
+next successor 10 3
+is in closed
+next successor 8 3
+is a new node
+now looking at 11 24
+next successor 11 23
+is in closed
+next successor 12 24
+is in closed
+next successor 10 24
+is a new node
+now looking at 10 23
+next successor 10 24
+is in open
+next successor 10 22
+is in closed
+next successor 11 23
+is in closed
+next successor 9 23
+is a new node
+now looking at 9 22
+next successor 9 23
+is in open
+next successor 9 21
+is in closed
+next successor 10 22
+is in closed
+now looking at 11 0
+next successor 11 1
+is in closed
+next successor 12 0
+is in closed
+next successor 10 0
+is a new node
+now looking at 10 1
+next successor 10 2
+is in closed
+next successor 10 0
+is in open
+next successor 11 1
+is in closed
+next successor 9 1
+is a new node
+now looking at 9 2
+next successor 9 3
+is in closed
+next successor 9 1
+is in open
+next successor 10 2
+is in closed
+next successor 8 2
+is a new node
+now looking at 8 3
+next successor 8 2
+is in open
+next successor 9 3
+is in closed
+next successor 7 3
+is a new node
+now looking at 10 24
+next successor 10 23
+is in closed
+next successor 11 24
+is in closed
+next successor 9 24
+is a new node
+now looking at 9 23
+next successor 9 24
+is in open
+next successor 9 22
+is in closed
+next successor 10 23
+is in closed
+next successor 8 23
+is a new node
+now looking at 10 0
+next successor 10 1
+is in closed
+next successor 11 0
+is in closed
+next successor 9 0
+is a new node
+now looking at 9 1
+next successor 9 2
+is in closed
+next successor 9 0
+is in open
+next successor 10 1
+is in closed
+next successor 8 1
+is a new node
+now looking at 8 2
+next successor 8 3
+is in closed
+next successor 8 1
+is in open
+next successor 9 2
+is in closed
+next successor 7 2
+is a new node
+now looking at 7 3
+next successor 7 2
+is in open
+next successor 8 3
+is in closed
+next successor 6 3
+is a new node
+now looking at 9 24
+next successor 9 23
+is in closed
+next successor 10 24
+is in closed
+next successor 8 24
+is a new node
+now looking at 8 23
+next successor 8 24
+is in open
+next successor 9 23
+is in closed
+next successor 7 23
+is a new node
+now looking at 9 0
+next successor 9 1
+is in closed
+next successor 10 0
+is in closed
+next successor 8 0
+is a new node
+now looking at 8 1
+next successor 8 2
+is in closed
+next successor 8 0
+is in open
+next successor 9 1
+is in closed
+next successor 7 1
+is a new node
+now looking at 7 2
+next successor 7 3
+is in closed
+next successor 7 1
+is in open
+next successor 8 2
+is in closed
+next successor 6 2
+is a new node
+now looking at 6 3
+next successor 6 2
+is in open
+next successor 7 3
+is in closed
+next successor 5 3
+is a new node
+now looking at 8 24
+next successor 8 23
+is in closed
+next successor 9 24
+is in closed
+next successor 7 24
+is a new node
+now looking at 7 23
+next successor 7 24
+is in open
+next successor 8 23
+is in closed
+next successor 6 23
+is a new node
+now looking at 8 0
+next successor 8 1
+is in closed
+next successor 9 0
+is in closed
+next successor 7 0
+is a new node
+now looking at 7 1
+next successor 7 2
+is in closed
+next successor 7 0
+is in open
+next successor 8 1
+is in closed
+next successor 6 1
+is a new node
+now looking at 6 2
+next successor 6 3
+is in closed
+next successor 6 1
+is in open
+next successor 7 2
+is in closed
+next successor 5 2
+is a new node
+now looking at 5 3
+next successor 5 2
+is in open
+next successor 6 3
+is in closed
+next successor 4 3
+is a new node
+now looking at 7 24
+next successor 7 23
+is in closed
+next successor 8 24
+is in closed
+next successor 6 24
+is a new node
+now looking at 6 23
+next successor 6 24
+is in open
+next successor 7 23
+is in closed
+next successor 5 23
+is a new node
+now looking at 7 0
+next successor 7 1
+is in closed
+next successor 8 0
+is in closed
+next successor 6 0
+is a new node
+now looking at 6 1
+next successor 6 2
+is in closed
+next successor 6 0
+is in open
+next successor 7 1
+is in closed
+next successor 5 1
+is a new node
+now looking at 5 2
+next successor 5 3
+is in closed
+next successor 5 1
+is in open
+next successor 6 2
+is in closed
+next successor 4 2
+is a new node
+now looking at 4 3
+next successor 4 4
+is a new node
+next successor 4 2
+is in open
+next successor 5 3
+is in closed
+next successor 3 3
+is a new node
+now looking at 6 24
+next successor 6 23
+is in closed
+next successor 7 24
+is in closed
+next successor 5 24
+is a new node
+now looking at 5 23
+next successor 5 24
+is in open
+next successor 6 23
+is in closed
+next successor 4 23
+is a new node
+now looking at 6 0
+next successor 6 1
+is in closed
+next successor 7 0
+is in closed
+next successor 5 0
+is a new node
+now looking at 5 1
+next successor 5 2
+is in closed
+next successor 5 0
+is in open
+next successor 6 1
+is in closed
+next successor 4 1
+is a new node
+now looking at 4 2
+next successor 4 3
+is in closed
+next successor 4 1
+is in open
+next successor 5 2
+is in closed
+next successor 3 2
+is a new node
+now looking at 4 4
+next successor 4 5
+is a new node
+next successor 4 3
+is in closed
+next successor 3 4
+is a new node
+now looking at 3 3
+next successor 3 4
+is in open
+next successor 3 2
+is in open
+next successor 4 3
+is in closed
+next successor 2 3
+is a new node
+now looking at 5 24
+next successor 5 23
+is in closed
+next successor 6 24
+is in closed
+next successor 4 24
+is a new node
+now looking at 4 23
+next successor 4 24
+is in open
+next successor 4 22
+is a new node
+next successor 5 23
+is in closed
+next successor 3 23
+is a new node
+now looking at 5 0
+next successor 5 1
+is in closed
+next successor 6 0
+is in closed
+next successor 4 0
+is a new node
+now looking at 4 1
+next successor 4 2
+is in closed
+next successor 4 0
+is in open
+next successor 5 1
+is in closed
+next successor 3 1
+is a new node
+now looking at 3 2
+next successor 3 3
+is in closed
+next successor 3 1
+is in open
+next successor 4 2
+is in closed
+next successor 2 2
+is a new node
+now looking at 4 5
+next successor 4 6
+is a new node
+next successor 4 4
+is in closed
+next successor 3 5
+is a new node
+now looking at 3 4
+next successor 3 5
+is in open
+next successor 3 3
+is in closed
+next successor 4 4
+is in closed
+next successor 2 4
+is a new node
+now looking at 2 3
+next successor 2 4
+is in open
+next successor 2 2
+is in open
+next successor 3 3
+is in closed
+next successor 1 3
+is a new node
+now looking at 4 24
+next successor 4 23
+is in closed
+next successor 5 24
+is in closed
+next successor 3 24
+is a new node
+now looking at 4 22
+next successor 4 23
+is in closed
+next successor 4 21
+is a new node
+next successor 3 22
+is a new node
+now looking at 3 23
+next successor 3 24
+is in open
+next successor 3 22
+is in open
+next successor 4 23
+is in closed
+next successor 2 23
+is a new node
+now looking at 4 0
+next successor 4 1
+is in closed
+next successor 5 0
+is in closed
+next successor 3 0
+is a new node
+now looking at 3 1
+next successor 3 2
+is in closed
+next successor 3 0
+is in open
+next successor 4 1
+is in closed
+next successor 2 1
+is a new node
+now looking at 2 2
+next successor 2 3
+is in closed
+next successor 2 1
+is in open
+next successor 3 2
+is in closed
+next successor 1 2
+is a new node
+now looking at 4 6
+next successor 4 7
+is a new node
+next successor 4 5
+is in closed
+next successor 3 6
+is a new node
+now looking at 3 5
+next successor 3 6
+is in open
+next successor 3 4
+is in closed
+next successor 4 5
+is in closed
+next successor 2 5
+is a new node
+now looking at 2 4
+next successor 2 5
+is in open
+next successor 2 3
+is in closed
+next successor 3 4
+is in closed
+next successor 1 4
+is a new node
+now looking at 1 3
+next successor 1 4
+is in open
+next successor 1 2
+is in open
+next successor 2 3
+is in closed
+next successor 0 3
+is a new node
+now looking at 3 24
+next successor 3 23
+is in closed
+next successor 4 24
+is in closed
+next successor 2 24
+is a new node
+now looking at 4 21
+next successor 4 22
+is in closed
+next successor 4 20
+is a new node
+next successor 3 21
+is a new node
+now looking at 3 22
+next successor 3 23
+is in closed
+next successor 3 21
+is in open
+next successor 4 22
+is in closed
+next successor 2 22
+is a new node
+now looking at 2 23
+next successor 2 24
+is in open
+next successor 2 22
+is in open
+next successor 3 23
+is in closed
+next successor 1 23
+is a new node
+now looking at 3 0
+next successor 3 1
+is in closed
+next successor 4 0
+is in closed
+next successor 2 0
+is a new node
+now looking at 2 1
+next successor 2 2
+is in closed
+next successor 2 0
+is in open
+next successor 3 1
+is in closed
+next successor 1 1
+is a new node
+now looking at 1 2
+next successor 1 3
+is in closed
+next successor 1 1
+is in open
+next successor 2 2
+is in closed
+next successor 0 2
+is a new node
+now looking at 4 7
+next successor 4 8
+is a new node
+next successor 4 6
+is in closed
+next successor 3 7
+is a new node
+now looking at 3 6
+next successor 3 7
+is in open
+next successor 3 5
+is in closed
+next successor 4 6
+is in closed
+next successor 2 6
+is a new node
+now looking at 2 5
+next successor 2 6
+is in open
+next successor 2 4
+is in closed
+next successor 3 5
+is in closed
+next successor 1 5
+is a new node
+now looking at 1 4
+next successor 1 5
+is in open
+next successor 1 3
+is in closed
+next successor 2 4
+is in closed
+next successor 0 4
+is a new node
+now looking at 0 3
+next successor 0 4
+is in open
+next successor 0 2
+is in open
+next successor 1 3
+is in closed
+now looking at 2 24
+next successor 2 23
+is in closed
+next successor 3 24
+is in closed
+next successor 1 24
+is a new node
+now looking at 4 20
+next successor 4 21
+is in closed
+next successor 4 19
+is a new node
+next successor 3 20
+is a new node
+now looking at 3 21
+next successor 3 22
+is in closed
+next successor 3 20
+is in open
+next successor 4 21
+is in closed
+next successor 2 21
+is a new node
+now looking at 2 22
+next successor 2 23
+is in closed
+next successor 2 21
+is in open
+next successor 3 22
+is in closed
+next successor 1 22
+is a new node
+now looking at 1 23
+next successor 1 24
+is in open
+next successor 1 22
+is in open
+next successor 2 23
+is in closed
+next successor 0 23
+is a new node
+now looking at 2 0
+next successor 2 1
+is in closed
+next successor 3 0
+is in closed
+next successor 1 0
+is a new node
+now looking at 1 1
+next successor 1 2
+is in closed
+next successor 1 0
+is in open
+next successor 2 1
+is in closed
+next successor 0 1
+is a new node
+now looking at 0 2
+next successor 0 3
+is in closed
+next successor 0 1
+is in open
+next successor 1 2
+is in closed
+now looking at 4 8
+next successor 4 9
+is a new node
+next successor 4 7
+is in closed
+next successor 3 8
+is a new node
+now looking at 3 7
+next successor 3 8
+is in open
+next successor 3 6
+is in closed
+next successor 4 7
+is in closed
+next successor 2 7
+is a new node
+now looking at 2 6
+next successor 2 7
+is in open
+next successor 2 5
+is in closed
+next successor 3 6
+is in closed
+next successor 1 6
+is a new node
+now looking at 1 5
+next successor 1 6
+is in open
+next successor 1 4
+is in closed
+next successor 2 5
+is in closed
+next successor 0 5
+is a new node
+now looking at 0 4
+next successor 0 5
+is in open
+next successor 0 3
+is in closed
+next successor 1 4
+is in closed
+now looking at 1 24
+next successor 1 23
+is in closed
+next successor 2 24
+is in closed
+next successor 0 24
+is a new node
+now looking at 4 19
+next successor 4 20
+is in closed
+next successor 4 18
+is a new node
+next successor 3 19
+is a new node
+now looking at 3 20
+next successor 3 21
+is in closed
+next successor 3 19
+is in open
+next successor 4 20
+is in closed
+next successor 2 20
+is a new node
+now looking at 2 21
+next successor 2 22
+is in closed
+next successor 2 20
+is in open
+next successor 3 21
+is in closed
+next successor 1 21
+is a new node
+now looking at 1 22
+next successor 1 23
+is in closed
+next successor 1 21
+is in open
+next successor 2 22
+is in closed
+next successor 0 22
+is a new node
+now looking at 0 23
+next successor 0 24
+is in open
+next successor 0 22
+is in open
+next successor 1 23
+is in closed
+now looking at 1 0
+next successor 1 1
+is in closed
+next successor 2 0
+is in closed
+next successor 0 0
+is a new node
+now looking at 0 1
+next successor 0 2
+is in closed
+next successor 0 0
+is in open
+next successor 1 1
+is in closed
+now looking at 4 9
+next successor 4 10
+is a new node
+next successor 4 8
+is in closed
+next successor 3 9
+is a new node
+now looking at 3 8
+next successor 3 9
+is in open
+next successor 3 7
+is in closed
+next successor 4 8
+is in closed
+next successor 2 8
+is a new node
+now looking at 2 7
+next successor 2 8
+is in open
+next successor 2 6
+is in closed
+next successor 3 7
+is in closed
+next successor 1 7
+is a new node
+now looking at 1 6
+next successor 1 7
+is in open
+next successor 1 5
+is in closed
+next successor 2 6
+is in closed
+next successor 0 6
+is a new node
+now looking at 0 5
+next successor 0 6
+is in open
+next successor 0 4
+is in closed
+next successor 1 5
+is in closed
+now looking at 0 24
+next successor 0 23
+is in closed
+next successor 1 24
+is in closed
+now looking at 4 18
+next successor 4 19
+is in closed
+next successor 4 17
+is a new node
+next successor 3 18
+is a new node
+now looking at 3 19
+next successor 3 20
+is in closed
+next successor 3 18
+is in open
+next successor 4 19
+is in closed
+next successor 2 19
+is a new node
+now looking at 2 20
+next successor 2 21
+is in closed
+next successor 2 19
+is in open
+next successor 3 20
+is in closed
+next successor 1 20
+is a new node
+now looking at 1 21
+next successor 1 22
+is in closed
+next successor 1 20
+is in open
+next successor 2 21
+is in closed
+next successor 0 21
+is a new node
+now looking at 0 22
+next successor 0 23
+is in closed
+next successor 0 21
+is in open
+next successor 1 22
+is in closed
+now looking at 0 0
+next successor 0 1
+is in closed
+next successor 1 0
+is in closed
+now looking at 4 10
+next successor 4 11
+is a new node
+next successor 4 9
+is in closed
+next successor 5 10
+is a new node
+next successor 3 10
+is a new node
+now looking at 3 9
+next successor 3 10
+is in open
+next successor 3 8
+is in closed
+next successor 4 9
+is in closed
+next successor 2 9
+is a new node
+now looking at 2 8
+next successor 2 9
+is in open
+next successor 2 7
+is in closed
+next successor 3 8
+is in closed
+next successor 1 8
+is a new node
+now looking at 1 7
+next successor 1 8
+is in open
+next successor 1 6
+is in closed
+next successor 2 7
+is in closed
+next successor 0 7
+is a new node
+now looking at 0 6
+next successor 0 7
+is in open
+next successor 0 5
+is in closed
+next successor 1 6
+is in closed
+now looking at 4 17
+next successor 4 18
+is in closed
+next successor 4 16
+is a new node
+next successor 3 17
+is a new node
+now looking at 3 18
+next successor 3 19
+is in closed
+next successor 3 17
+is in open
+next successor 4 18
+is in closed
+next successor 2 18
+is a new node
+now looking at 2 19
+next successor 2 20
+is in closed
+next successor 2 18
+is in open
+next successor 3 19
+is in closed
+next successor 1 19
+is a new node
+now looking at 1 20
+next successor 1 21
+is in closed
+next successor 1 19
+is in open
+next successor 2 20
+is in closed
+next successor 0 20
+is a new node
+now looking at 0 21
+next successor 0 22
+is in closed
+next successor 0 20
+is in open
+next successor 1 21
+is in closed
+now looking at 4 11
+next successor 4 12
+is a new node
+next successor 4 10
+is in closed
+next successor 5 11
+is a new node
+next successor 3 11
+is a new node
+now looking at 5 10
+next successor 5 11
+is in open
+next successor 6 10
+is a new node
+next successor 4 10
+is in closed
+now looking at 3 10
+next successor 3 11
+is in open
+next successor 3 9
+is in closed
+next successor 4 10
+is in closed
+next successor 2 10
+is a new node
+now looking at 2 9
+next successor 2 10
+is in open
+next successor 2 8
+is in closed
+next successor 3 9
+is in closed
+next successor 1 9
+is a new node
+now looking at 1 8
+next successor 1 9
+is in open
+next successor 1 7
+is in closed
+next successor 2 8
+is in closed
+next successor 0 8
+is a new node
+now looking at 0 7
+next successor 0 8
+is in open
+next successor 0 6
+is in closed
+next successor 1 7
+is in closed
+now looking at 4 16
+next successor 4 17
+is in closed
+next successor 4 15
+is a new node
+next successor 3 16
+is a new node
+now looking at 3 17
+next successor 3 18
+is in closed
+next successor 3 16
+is in open
+next successor 4 17
+is in closed
+next successor 2 17
+is a new node
+now looking at 2 18
+next successor 2 19
+is in closed
+next successor 2 17
+is in open
+next successor 3 18
+is in closed
+next successor 1 18
+is a new node
+now looking at 1 19
+next successor 1 20
+is in closed
+next successor 1 18
+is in open
+next successor 2 19
+is in closed
+next successor 0 19
+is a new node
+now looking at 0 20
+next successor 0 21
+is in closed
+next successor 0 19
+is in open
+next successor 1 20
+is in closed
+now looking at 4 12
+next successor 4 13
+is a new node
+next successor 4 11
+is in closed
+next successor 5 12
+is a new node
+next successor 3 12
+is a new node
+now looking at 5 11
+next successor 5 12
+is in open
+next successor 5 10
+is in closed
+next successor 6 11
+is a new node
+next successor 4 11
+is in closed
+now looking at 3 11
+next successor 3 12
+is in open
+next successor 3 10
+is in closed
+next successor 4 11
+is in closed
+next successor 2 11
+is a new node
+now looking at 6 10
+next successor 6 11
+is in open
+next successor 7 10
+is a new node
+next successor 5 10
+is in closed
+now looking at 2 10
+next successor 2 11
+is in open
+next successor 2 9
+is in closed
+next successor 3 10
+is in closed
+next successor 1 10
+is a new node
+now looking at 1 9
+next successor 1 10
+is in open
+next successor 1 8
+is in closed
+next successor 2 9
+is in closed
+next successor 0 9
+is a new node
+now looking at 0 8
+next successor 0 9
+is in open
+next successor 0 7
+is in closed
+next successor 1 8
+is in closed
+now looking at 4 15
+next successor 4 16
+is in closed
+next successor 4 14
+is a new node
+next successor 5 15
+is a new node
+next successor 3 15
+is a new node
+now looking at 3 16
+next successor 3 17
+is in closed
+next successor 3 15
+is in open
+next successor 4 16
+is in closed
+next successor 2 16
+is a new node
+now looking at 2 17
+next successor 2 18
+is in closed
+next successor 2 16
+is in open
+next successor 3 17
+is in closed
+next successor 1 17
+is a new node
+now looking at 1 18
+next successor 1 19
+is in closed
+next successor 1 17
+is in open
+next successor 2 18
+is in closed
+next successor 0 18
+is a new node
+now looking at 0 19
+next successor 0 20
+is in closed
+next successor 0 18
+is in open
+next successor 1 19
+is in closed
+now looking at 4 13
+next successor 4 14
+is in open
+next successor 4 12
+is in closed
+next successor 5 13
+is a new node
+next successor 3 13
+is a new node
+now looking at 5 12
+next successor 5 13
+is in open
+next successor 5 11
+is in closed
+next successor 6 12
+is a new node
+next successor 4 12
+is in closed
+now looking at 3 12
+next successor 3 13
+is in open
+next successor 3 11
+is in closed
+next successor 4 12
+is in closed
+next successor 2 12
+is a new node
+now looking at 6 11
+next successor 6 12
+is in open
+next successor 6 10
+is in closed
+next successor 7 11
+is a new node
+next successor 5 11
+is in closed
+now looking at 2 11
+next successor 2 12
+is in open
+next successor 2 10
+is in closed
+next successor 3 11
+is in closed
+next successor 1 11
+is a new node
+now looking at 7 10
+next successor 7 11
+is in open
+next successor 8 10
+is a new node
+next successor 6 10
+is in closed
+now looking at 1 10
+next successor 1 11
+is in open
+next successor 1 9
+is in closed
+next successor 2 10
+is in closed
+next successor 0 10
+is a new node
+now looking at 0 9
+next successor 0 10
+is in open
+next successor 0 8
+is in closed
+next successor 1 9
+is in closed
+now looking at 4 14
+next successor 4 15
+is in closed
+next successor 4 13
+is in closed
+next successor 5 14
+is a new node
+next successor 3 14
+is a new node
+now looking at 5 15
+next successor 5 14
+is in open
+next successor 6 15
+is a new node
+next successor 4 15
+is in closed
+now looking at 3 15
+next successor 3 16
+is in closed
+next successor 3 14
+is in open
+next successor 4 15
+is in closed
+next successor 2 15
+is a new node
+now looking at 2 16
+next successor 2 17
+is in closed
+next successor 2 15
+is in open
+next successor 3 16
+is in closed
+next successor 1 16
+is a new node
+now looking at 1 17
+next successor 1 18
+is in closed
+next successor 1 16
+is in open
+next successor 2 17
+is in closed
+next successor 0 17
+is a new node
+now looking at 0 18
+next successor 0 19
+is in closed
+next successor 0 17
+is in open
+next successor 1 18
+is in closed
+now looking at 5 13
+next successor 5 14
+is in open
+next successor 5 12
+is in closed
+next successor 6 13
+is a new node
+next successor 4 13
+is in closed
+now looking at 3 13
+next successor 3 14
+is in open
+next successor 3 12
+is in closed
+next successor 4 13
+is in closed
+next successor 2 13
+is a new node
+now looking at 6 12
+next successor 6 13
+is in open
+next successor 6 11
+is in closed
+next successor 7 12
+is a new node
+next successor 5 12
+is in closed
+now looking at 2 12
+next successor 2 13
+is in open
+next successor 2 11
+is in closed
+next successor 3 12
+is in closed
+next successor 1 12
+is a new node
+now looking at 7 11
+next successor 7 12
+is in open
+next successor 7 10
+is in closed
+next successor 8 11
+is a new node
+next successor 6 11
+is in closed
+now looking at 1 11
+next successor 1 12
+is in open
+next successor 1 10
+is in closed
+next successor 2 11
+is in closed
+next successor 0 11
+is a new node
+now looking at 8 10
+next successor 8 11
+is in open
+next successor 7 10
+is in closed
+now looking at 0 10
+next successor 0 11
+is in open
+next successor 0 9
+is in closed
+next successor 1 10
+is in closed
+now looking at 5 14
+next successor 5 15
+is in closed
+next successor 5 13
+is in closed
+next successor 6 14
+is a new node
+next successor 4 14
+is in closed
+now looking at 3 14
+next successor 3 15
+is in closed
+next successor 3 13
+is in closed
+next successor 4 14
+is in closed
+next successor 2 14
+is a new node
+now looking at 6 15
+next successor 6 14
+is in open
+next successor 7 15
+is a new node
+next successor 5 15
+is in closed
+now looking at 2 15
+next successor 2 16
+is in closed
+next successor 2 14
+is in open
+next successor 3 15
+is in closed
+next successor 1 15
+is a new node
+now looking at 1 16
+next successor 1 17
+is in closed
+next successor 1 15
+is in open
+next successor 2 16
+is in closed
+next successor 0 16
+is a new node
+now looking at 0 17
+next successor 0 18
+is in closed
+next successor 0 16
+is in open
+next successor 1 17
+is in closed
+now looking at 6 13
+next successor 6 14
+is in open
+next successor 6 12
+is in closed
+next successor 7 13
+is a new node
+next successor 5 13
+is in closed
+now looking at 2 13
+next successor 2 14
+is in open
+next successor 2 12
+is in closed
+next successor 3 13
+is in closed
+next successor 1 13
+is a new node
+now looking at 7 12
+goal reached
+./zapusk.sh: line 3: 255882 Killed                  ./Anna_Teplova_ASearch ../../Examples/example.xml

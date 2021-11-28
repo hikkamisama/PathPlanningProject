@@ -1,0 +1,1 @@
+/home/anna/pathplanning/PathPlanningProject/Bin/Debug/Anna_Teplova_ASearch

@@ -34,6 +34,7 @@ int main(int argc, char* argv[])
                 std::cout<<"Search is finished!"<<std::endl;
 
                 mission.printSearchResultsToConsole();
+                std::cout << "printed successfuly" << std::endl;
                 mission.saveSearchResultsToLog();
 
                 std::cout<<"Results are saved (if chosen) via created log channel."<<std::endl;
