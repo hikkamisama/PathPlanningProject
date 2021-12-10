@@ -98,7 +98,7 @@ double Search::Heuristic(int i, int j, const Map &map, const EnvironmentOptions 
 }
 
 void Search::Update(Node* parent, Node* child, const Map &map) {
-    double cost = map.getCellSize();
+    double cost = 1;
     int dx = abs(parent->i - child->i);
     int dy = abs(parent->j - child->j);
     if (dx + dy == 2) {
