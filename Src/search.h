@@ -26,7 +26,7 @@ class Search
         int Find(int i, int j);
         int FindClosed(int i, int j);
         void Update(Node* parent, Node* child, const Map &map);
-        double Heuristic(int i, int j);
+        double Heuristic(int i, int j, const Map &map, const EnvironmentOptions &options);
         void makePrimaryPath(Node* curNode);
         void makeSecondaryPath();
         //CODE HERE

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/anna/pathplanning/PathPlanningProject/Src/config.h
+string
+-
+
 /home/anna/pathplanning/PathPlanningProject/Src/environmentoptions.h
 gl_const.h
 /home/anna/pathplanning/PathPlanningProject/Src/gl_const.h
@@ -40,6 +44,30 @@ utility
 tinyxml2.h
 /home/anna/pathplanning/PathPlanningProject/Src/tinyxml2.h
 
+/home/anna/pathplanning/PathPlanningProject/Src/mission.cpp
+mission.h
+/home/anna/pathplanning/PathPlanningProject/Src/mission.h
+iostream
+-
+
+/home/anna/pathplanning/PathPlanningProject/Src/mission.h
+map.h
+/home/anna/pathplanning/PathPlanningProject/Src/map.h
+config.h
+/home/anna/pathplanning/PathPlanningProject/Src/config.h
+search.h
+/home/anna/pathplanning/PathPlanningProject/Src/search.h
+ilogger.h
+/home/anna/pathplanning/PathPlanningProject/Src/ilogger.h
+searchresult.h
+/home/anna/pathplanning/PathPlanningProject/Src/searchresult.h
+environmentoptions.h
+/home/anna/pathplanning/PathPlanningProject/Src/environmentoptions.h
+search.h
+/home/anna/pathplanning/PathPlanningProject/Src/search.h
+xmllogger.h
+/home/anna/pathplanning/PathPlanningProject/Src/xmllogger.h
+
 /home/anna/pathplanning/PathPlanningProject/Src/node.h
 
 /home/anna/pathplanning/PathPlanningProject/Src/search.cpp
@@ -52,6 +80,8 @@ limits
 chrono
 -
 iostream
+-
+cmath
 -
 
 /home/anna/pathplanning/PathPlanningProject/Src/search.h
@@ -107,4 +137,10 @@ android/log.h
 -
 assert.h
 -
+
+/home/anna/pathplanning/PathPlanningProject/Src/xmllogger.h
+tinyxml2.h
+/home/anna/pathplanning/PathPlanningProject/Src/tinyxml2.h
+ilogger.h
+/home/anna/pathplanning/PathPlanningProject/Src/ilogger.h
 

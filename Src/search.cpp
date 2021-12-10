@@ -3,6 +3,7 @@
 #include <limits>
 #include <chrono>
 #include <iostream>
+#include <cmath>
 
 Search::Search()
 {
@@ -44,23 +45,67 @@ int Search::FindClosed(int i, int j) {
 }
 
 std::vector<std::pair<int, int>> Search::Successors(Node* curr, const Map &Map, const EnvironmentOptions &options) {
-    std::vector<std::pair<int, int>> moves = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    std::vector<std::pair<int, int>> moves;
+    if (options.allowdiagonal) {
+        for (int i = -1; i < 2; ++i) {
+            for (int j = -1; j < 2; ++j) {
+                moves.emplace_back(i, j);
+            }
+        }
+    } else {
+        moves = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    }
     std::vector<std::pair<int, int>> res;
     for (auto [di, dj] : moves) {
-        if (Map.getValue(curr->i + di, curr->j + dj) == 0) {
-            res.emplace_back(curr->i + di, curr->j + dj);
+        int succi = curr->i + di;
+        int succj = curr->j + dj;
+        if (Map.getValue(succi, succj)) {
+            continue;
+        }
+        if (std::abs(di) + std::abs(dj) == 2) {
+            if (Map.getValue(curr->i + di, curr->j) && Map.getValue(curr->i, curr->j + dj)) {
+                if (options.allowsqueeze) {
+                    res.emplace_back(succi, succj);
+                }
+            } else if (Map.getValue(curr->i + di, curr->j) || Map.getValue(curr->i, curr->j + dj)) {
+                if (options.cutcorners) {
+                    res.emplace_back(succi, succj);
+                }
+            } else {
+                res.emplace_back(succi, succj);
+            }
+        } else {
+            res.emplace_back(succi, succj);
         }
     }
     return res;
 }
 
-double Search::Heuristic(int i, int j) {
+double Search::Heuristic(int i, int j, const Map &map, const EnvironmentOptions &options) {
+    auto [gi, gj] = map.GetGoalPoint();
+    int dx = abs(gi - i);
+    int dy = abs(gj - j);
+    if (options.metrictype == 0) { // diag
+        return std::abs(dx - dy) + std::min(dx, dy);
+    } else if (options.metrictype == 1) { // manh
+        return dx + dy;
+    } else if (options.metrictype == 2) { // eucl
+        return std::pow(dx * dx + dy * dy, 0.5);
+    } else if (options.metrictype == 3) { // cheb
+        return std::max(dx, dy);
+    }
     return 0;
 }
 
 void Search::Update(Node* parent, Node* child, const Map &map) {
-    if (child->g > parent->g + map.getCellSize()) {
-        child->g = parent->g + map.getCellSize();
+    double cost = map.getCellSize();
+    int dx = abs(parent->i - child->i);
+    int dy = abs(parent->j - child->j);
+    if (dx + dy == 2) {
+        cost *= CN_SQRT_TWO;
+    }
+    if (child->g > parent->g + cost) {
+        child->g = parent->g + cost;
         child->F = child->g + child->H;
         child->parent = parent;
     }
@@ -74,8 +119,9 @@ SearchResult Search::startSearch(ILogger *Logger, const Map &map, const Environm
     auto [si, sj] = map.GetStartPoint();
     auto [gi, gj] = map.GetGoalPoint();
     Node* start = new Node{
-        si, sj, 0, 0, Heuristic(si, sj), nullptr
+        si, sj, 0, 0, Heuristic(si, sj, map, options), nullptr
     };
+
     OPEN.push_back(start);
     while (Condition()) {
         ++numberofsteps;
@@ -96,7 +142,7 @@ SearchResult Search::startSearch(ILogger *Logger, const Map &map, const Environm
                 int indback = FindClosed(succi, succj);
                 if (indback == -1) {
                     Node* child = new Node{
-                        succi, succj, __INT_MAX__, __INT_MAX__, Heuristic(succi, succj), OPEN[curr]
+                        succi, succj, __INT_MAX__, __INT_MAX__, Heuristic(succi, succj, map, options), OPEN[curr]
                     };
                     //std::cerr << "is a new node\n";
                     OPEN.push_back(child);
@@ -129,12 +175,6 @@ SearchResult Search::startSearch(ILogger *Logger, const Map &map, const Environm
     }
     OPEN.clear();
     CLOSE.clear();
-    //need to implement
-
-    /*sresult.pathfound = ; ok
-    sresult.nodescreated =  ; ok
-    sresult.numberofsteps = ; ok 
-    sresult.time = ; ok */
     sresult.hppath = &hppath;
     sresult.lppath = &lppath;
     return sresult;
@@ -144,7 +184,6 @@ void Search::makePrimaryPath(Node* curNode) {
     lppath.push_front(*curNode);
     auto temp = curNode;
     while (temp->parent) {
-        //std::cerr << temp->i << " " << temp->j << std::endl;
         lppath.push_front(*(temp->parent));
         temp = temp->parent;
     }
