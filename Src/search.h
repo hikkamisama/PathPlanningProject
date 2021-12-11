@@ -8,6 +8,8 @@
 #include <math.h>
 #include <limits>
 #include <chrono>
+#include <unordered_map>
+#include <set>
 
 class Search
 {
@@ -17,14 +19,27 @@ class Search
         SearchResult startSearch(ILogger *Logger, const Map &Map, const EnvironmentOptions &options);
 
     protected:
-        std::vector<Node*> OPEN;
-        std::vector<Node*> CLOSE;
+        struct OPEN {
+            std::set<std::pair<double, long long>> data;
+            std::unordered_map<long long, Node*> real_open;
+            Node*& operator[](long long h) {
+                return real_open[h];
+            }
+            void Erase(long long it) {
+                double f = real_open[it]->F;
+                real_open.erase(it);
+                data.erase({f, it});
+                // std::cerr << "erasing hash " << it << " , F = " << f << std::endl;
+            }
+        } OPEN;
+
+        std::unordered_map<long long, Node*> CLOSE;
 
         bool Condition();
-        int Optimal();
+        long long Optimal();
         std::vector<std::pair<int, int>> Successors(Node* curr, const Map &Map, const EnvironmentOptions &options);
-        int Find(int i, int j);
-        int FindClosed(int i, int j);
+        long long FindOpen(int i, int j, const Map &Map);
+        long long FindClosed(int i, int j, const Map &Map);
         void Update(Node* parent, Node* child, const Map &map);
         double Heuristic(int i, int j, const Map &map, const EnvironmentOptions &options);
         void makePrimaryPath(Node* curNode);

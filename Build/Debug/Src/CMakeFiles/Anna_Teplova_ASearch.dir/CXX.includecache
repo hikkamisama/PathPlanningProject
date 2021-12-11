@@ -55,6 +55,10 @@ iostream
 -
 cmath
 -
+unordered_map
+-
+cassert
+-
 
 /home/anna/pathplanning/PathPlanningProject/Src/search.h
 ilogger.h
@@ -72,6 +76,10 @@ math.h
 limits
 -
 chrono
+-
+unordered_map
+-
+set
 -
 
 /home/anna/pathplanning/PathPlanningProject/Src/searchresult.h

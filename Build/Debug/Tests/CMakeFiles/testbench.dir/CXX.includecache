@@ -81,6 +81,10 @@ limits
 -
 chrono
 -
+unordered_map
+-
+set
+-
 
 ../../Src/searchresult.h
 list

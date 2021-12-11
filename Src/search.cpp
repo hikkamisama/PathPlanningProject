@@ -4,6 +4,8 @@
 #include <chrono>
 #include <iostream>
 #include <cmath>
+#include <unordered_map>
+#include <cassert>
 
 Search::Search()
 {
@@ -12,34 +14,28 @@ Search::Search()
 
 Search::~Search() {}
 
+long long hash_pair(int i, int j, const Map &Map) {
+    return (1LL * i * Map.getMapWidth() + j);
+}
+
 bool Search::Condition() {
-    return !OPEN.empty();
+    return !OPEN.data.empty();
 }
 
-int Search::Optimal() {
-    int ind = 0;
-    for (int i = 0; i < OPEN.size(); ++i) {
-        if (OPEN[ind]->F > OPEN[i]->F) {
-            ind = i;
-        }
-    }
-    return ind;
+long long Search::Optimal() {
+    return OPEN.data.begin()->second;
 }
 
-int Search::Find(int i, int j) {
-    for (int k = 0; k < OPEN.size(); ++k) {
-        if (OPEN[k]->i == i && OPEN[k]->j == j) {
-            return k;
-        }
+long long Search::FindOpen(int i, int j, const Map &Map) {
+    if (OPEN.real_open.count(hash_pair(i, j, Map))) {
+        return hash_pair(i, j, Map);
     }
     return -1;
 }
 
-int Search::FindClosed(int i, int j) {
-    for (int k = 0; k < CLOSE.size(); ++k) {
-        if (CLOSE[k]->i == i && CLOSE[k]->j == j) {
-            return k;
-        }
+long long Search::FindClosed(int i, int j, const Map &Map) {
+    if (CLOSE.count(hash_pair(i, j, Map))) {
+        return hash_pair(i, j, Map);
     }
     return -1;
 }
@@ -49,7 +45,9 @@ std::vector<std::pair<int, int>> Search::Successors(Node* curr, const Map &Map, 
     if (options.allowdiagonal) {
         for (int i = -1; i < 2; ++i) {
             for (int j = -1; j < 2; ++j) {
-                moves.emplace_back(i, j);
+                if (i || j) {
+                    moves.emplace_back(i, j);
+                }
             }
         }
     } else {
@@ -104,10 +102,17 @@ void Search::Update(Node* parent, Node* child, const Map &map) {
     if (dx + dy == 2) {
         cost *= CN_SQRT_TWO;
     }
+    // std::cerr << "cost: " << std::fixed << cost << std::endl;
+    // std::cerr << parent->g << " " << child->g << std::endl;
     if (child->g > parent->g + cost) {
+        auto it = OPEN.data.find({child->F, hash_pair(child->i, child->j, map)});
+        assert(it != OPEN.data.end());
+        OPEN.data.erase(it);
         child->g = parent->g + cost;
         child->F = child->g + child->H;
         child->parent = parent;
+        OPEN.data.insert({child->F, hash_pair(child->i, child->j, map)});
+        // std::cerr << "updated " << child->i << " " << child->j << "\n";
     }
 }
 
@@ -121,59 +126,66 @@ SearchResult Search::startSearch(ILogger *Logger, const Map &map, const Environm
     Node* start = new Node{
         si, sj, 0, 0, Heuristic(si, sj, map, options), nullptr
     };
-
-    OPEN.push_back(start);
+    ++nodescreated;
+    long long st_hash = hash_pair(start->i, start->j, map);
+    OPEN.data.insert({start->F, st_hash});
+    OPEN[st_hash] = start;
     while (Condition()) {
         ++numberofsteps;
-        int curr = Optimal();
-        //std::cerr << "now looking at " << OPEN[curr]->i << " " << OPEN[curr]->j << "\n";
+        long long curr = Optimal();
+        // std::cerr << "now looking at " << OPEN[curr]->i << " " << OPEN[curr]->j << "\n";
         if (OPEN[curr]->i == gi && OPEN[curr]->j == gj) {
-            //std::cerr << "goal reached\n";
+            // std::cerr << "goal reached" << std::endl;
             break;
         }
         for (auto& [succi, succj] : Successors(OPEN[curr], map, options)) {
             ++numberofsteps;
-            //std::cerr << "next successor " << succi << " " << succj << "\n";
-            int ind = Find(succi, succj);
+            // std::cerr << "next successor " << succi << " " << succj << "\n";
+            long long ind = FindOpen(succi, succj, map);
             if (ind != -1) {
-                //std::cerr << "is in open\n";
+                // std::cerr << "is in open\n";
                 Update(OPEN[curr], OPEN[ind], map);
             } else {  
-                int indback = FindClosed(succi, succj);
+                auto indback = FindClosed(succi, succj, map);
                 if (indback == -1) {
                     Node* child = new Node{
                         succi, succj, __INT_MAX__, __INT_MAX__, Heuristic(succi, succj, map, options), OPEN[curr]
                     };
-                    //std::cerr << "is a new node\n";
-                    OPEN.push_back(child);
-                    Update(OPEN[curr], OPEN.back(), map);
-                } else {
-                    //std::cerr << "is in closed\n";
-                    Update(OPEN[curr], CLOSE[indback], map);
-                }
+                    ++nodescreated;
+                    // std::cerr << "is a new node\n";
+                    long long chh = hash_pair(succi, succj, map);
+                    // std::cerr << chh << std::endl;
+                    OPEN[chh] = child;
+                    OPEN.data.insert({__INT_MAX__, chh});
+                    Update(OPEN[curr], OPEN[chh], map);
+                } // else {
+                //     std::cerr << "is in closed\n";
+                //     Update(OPEN[curr], CLOSE[indback], map);
+                // }
             }
         }
-        CLOSE.push_back(OPEN[curr]);
-        OPEN.erase(OPEN.begin() + curr);
+        CLOSE[hash_pair(OPEN[curr]->i, OPEN[curr]->j, map)] = OPEN[curr];
+        OPEN.Erase(curr);
     }
     auto end_time = std::chrono::steady_clock::now();
     std::chrono::duration<double> elapsed = end_time - start_time;
     sresult.time = elapsed.count();
     sresult.numberofsteps = numberofsteps;
     sresult.pathlength = OPEN[Optimal()]->g;
-    sresult.nodescreated = OPEN.size() + CLOSE.size();
-    if (!OPEN.empty()) {
+    sresult.nodescreated = nodescreated;
+    if (!OPEN.data.empty()) {
         sresult.pathfound = true;
         makePrimaryPath(OPEN[Optimal()]);
         makeSecondaryPath();
     }
-    for (auto i : OPEN) {
-        delete i;
+    for (auto i : OPEN.real_open) {
+        delete i.second;
     }
+    OPEN.real_open.clear();
+    OPEN.data.clear();
     for (auto i : CLOSE) {
-        delete i;
+        delete i.second;
     }
-    OPEN.clear();
     CLOSE.clear();
     sresult.hppath = &hppath;
     sresult.lppath = &lppath;
@@ -191,5 +203,17 @@ void Search::makePrimaryPath(Node* curNode) {
 }
 
 void Search::makeSecondaryPath() {
-    
+    for (auto N : lppath) {
+        if (hppath.size() >= 2) {
+            auto N1 = hppath.back();
+            auto N2 = *prev(prev(hppath.end()));
+            std::pair<int, int> vec1 = {N1.i - N2.i, N1.j - N2.j};
+            std::pair<int, int> vec2 = {N.i - N1.i, N.j - N1.j};
+            int prod = vec1.first * vec2.second - vec1.second * vec2.first;
+            if (!prod) {
+                hppath.pop_back();
+            }
+        }
+        hppath.push_back(N);
+    }
 }
