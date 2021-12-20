@@ -1,4 +1,4 @@
-Start testing: Dec 10 22:49 MSK
+Start testing: Dec 20 21:52 MSK
 ----------------------------------------------------------
 Unable to find executable: /home/anna/pathplanning/PathPlanningProject/Bin/Debug/Tests/testbench
 1/12 Testing: Test1
@@ -12,7 +12,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test1" end time: Dec 10 22:49 MSK
+"Test1" end time: Dec 20 21:52 MSK
 "Test1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -28,7 +28,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test2" end time: Dec 10 22:49 MSK
+"Test2" end time: Dec 20 21:52 MSK
 "Test2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -44,7 +44,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test3" end time: Dec 10 22:49 MSK
+"Test3" end time: Dec 20 21:52 MSK
 "Test3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -60,7 +60,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test4" end time: Dec 10 22:49 MSK
+"Test4" end time: Dec 20 21:52 MSK
 "Test4" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -76,7 +76,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test5" end time: Dec 10 22:49 MSK
+"Test5" end time: Dec 20 21:52 MSK
 "Test5" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -92,7 +92,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test6" end time: Dec 10 22:49 MSK
+"Test6" end time: Dec 20 21:52 MSK
 "Test6" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -108,7 +108,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test7" end time: Dec 10 22:49 MSK
+"Test7" end time: Dec 20 21:52 MSK
 "Test7" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -124,7 +124,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test8" end time: Dec 10 22:49 MSK
+"Test8" end time: Dec 20 21:52 MSK
 "Test8" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -140,7 +140,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test9" end time: Dec 10 22:49 MSK
+"Test9" end time: Dec 20 21:52 MSK
 "Test9" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -156,7 +156,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test10" end time: Dec 10 22:49 MSK
+"Test10" end time: Dec 20 21:52 MSK
 "Test10" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -172,7 +172,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test11" end time: Dec 10 22:49 MSK
+"Test11" end time: Dec 20 21:52 MSK
 "Test11" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -188,8 +188,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Test12" end time: Dec 10 22:49 MSK
+"Test12" end time: Dec 20 21:52 MSK
 "Test12" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 10 22:49 MSK
+End testing: Dec 20 21:52 MSK

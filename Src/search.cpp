@@ -80,17 +80,20 @@ std::vector<std::pair<int, int>> Search::Successors(Node* curr, const Map &Map, 
 }
 
 double Search::Heuristic(int i, int j, const Map &map, const EnvironmentOptions &options) {
+    if (options.searchtype == 1) {
+        return 0;
+    }
     auto [gi, gj] = map.GetGoalPoint();
     int dx = abs(gi - i);
     int dy = abs(gj - j);
     if (options.metrictype == 0) { // diag
-        return std::abs(dx - dy) + std::min(dx, dy);
+        return (std::abs(dx - dy) + std::min(dx, dy)) * options.hweight;
     } else if (options.metrictype == 1) { // manh
-        return dx + dy;
+        return (dx + dy) * options.hweight;
     } else if (options.metrictype == 2) { // eucl
-        return std::pow(dx * dx + dy * dy, 0.5);
+        return std::pow(dx * dx + dy * dy, 0.5) * options.hweight;
     } else if (options.metrictype == 3) { // cheb
-        return std::max(dx, dy);
+        return std::max(dx, dy) * options.hweight;
     }
     return 0;
 }
@@ -139,7 +142,6 @@ SearchResult Search::startSearch(ILogger *Logger, const Map &map, const Environm
             break;
         }
         for (auto& [succi, succj] : Successors(OPEN[curr], map, options)) {
-            ++numberofsteps;
             // std::cerr << "next successor " << succi << " " << succj << "\n";
             long long ind = FindOpen(succi, succj, map);
             if (ind != -1) {
@@ -178,14 +180,14 @@ SearchResult Search::startSearch(ILogger *Logger, const Map &map, const Environm
         makePrimaryPath(OPEN[Optimal()]);
         makeSecondaryPath();
     }
-    for (auto i : OPEN.real_open) {
-        delete i.second;
-    }
+    // for (auto i : OPEN.real_open) {
+    //     delete i.second;
+    // }
     OPEN.real_open.clear();
     OPEN.data.clear();
-    for (auto i : CLOSE) {
-        delete i.second;
-    }
+    // for (auto i : CLOSE) {
+    //     delete i.second;
+    // }
     CLOSE.clear();
     sresult.hppath = &hppath;
     sresult.lppath = &lppath;
